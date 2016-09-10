@@ -33,13 +33,13 @@
         <div class="header-inner">
             <ul class="menu">
                 <li>
-                    <a href="/" data-text="Home" class="active">Home </a>
+                    <a href="/" data-text="Home" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>">Home </a>
                 </li>
                 <li>
-                    <a href="/pricing" data-text="Pricing">Pricing </a>
+                    <a href="/pricing" data-text="Pricing" class="<?php echo (Route::current()->uri() == 'pricing') ? 'active' : ''; ?>">Pricing </a>
                 </li>
                 <li>
-                    <a href="contact.html" data-text="Contact">Contact </a>
+                    <a href="/contact" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>">Contact </a>
                 </li>
                 <li>
                     <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="Buy now">Register now</a>

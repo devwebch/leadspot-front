@@ -2,6 +2,8 @@
 
 @section('body-class', 'p-t-100')
 
+@section('title', 'Pricing')
+
 @section('header')
     @include('layouts.partials.header-solid')
 @endsection
@@ -11,10 +13,10 @@
     <section class="p-t-40 p-b-75 sm-p-t-30">
         <div class="container">
             <h1 class="text-center m-b-5">
-                Plans built for every agent you desire
+                Plans fitted to your needs
             </h1>
             <h3 class="text-center m-t-5">
-                Start up with 30 days <strong class="font-montserrat all-caps">free</strong> trial.
+                Start safely with a <strong class="font-montserrat all-caps">free</strong> account.
             </h3>
             <table class="table table-striped pricing-table no-border m-t-60">
                 <thead>
@@ -23,14 +25,14 @@
                     <th class="text-center v-align-top no-padding bg-master-lightest" style="width: 22%;">
                         <div class="bg-menu-dark">
                             <p class="block-title text-white padding-10 fs-14 no-margin">
-                                Regular
+                                Beginner
                             </p>
                         </div>
                         <p class="font-montserrat m-t-30 m-b-30 lh-large">FREE</p>
                     </th>
                     <th class="text-center bg-menu v-align-top no-padding" style="width: 22%;">
                         <p class="block-title text-white padding-10 fs-14 text-warning">
-                            Premium
+                            Professional
                         </p>
                         <p class="font-montserrat text-white m-t-30 m-b-30 lh-large">
                             50 <sup class="fs-14 dollar">USD</sup> / mo
@@ -39,7 +41,7 @@
                     <th class="text-center v-align-top no-padding bg-master-lightest" style="width: 22%;">
                         <div class="bg-menu-dark">
                             <p class="block-title text-white padding-10 fs-14 no-margin">
-                                Extended
+                                Advanced
                             </p>
                         </div>
                         <p class="font-montserrat m-t-30 m-b-30 lh-large">
@@ -109,19 +111,19 @@
                         <p class="m-t-0 fs-14 semi-bold">
                             Billed monthly
                         </p>
-                        <a class="m-t-10 btn btn-rounded btn-complete" href="#">Create a free account</a>
+                        <a class="m-t-10 btn btn-rounded btn-info bold" href="#">Create a free account</a>
                     </td>
                     <td class="bg-menu text-center p-b-30 p-t-20" data-title="Extended">
                         <p class="m-t-0 fs-14 semi-bold text-white">
                             Billed monthly
                         </p>
-                        <a class="m-t-10 btn btn-rounded btn-warning" href="#">Subscribe</a>
+                        <a class="m-t-10 btn btn-rounded btn-warning bold" href="#">Coming soon</a>
                     </td>
                     <td class="text-center p-b-30 p-t-20" data-title="Custom">
                         <p class="m-t-0 fs-14 semi-bold">
                             Billed monthly
                         </p>
-                        <a class="m-t-10 btn btn-rounded btn-complete" href="#">Subscribe</a>
+                        <a class="m-t-10 btn btn-rounded btn-complete bold" href="#">Coming soon</a>
                     </td>
                 </tr>
                 </tbody>

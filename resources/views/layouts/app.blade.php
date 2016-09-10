@@ -3,7 +3,13 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
-    <title>Pages - Front End</title>
+    <title>
+        @if(View::hasSection('title'))
+            @yield('title') - LeadSpot
+        @else
+            LeadSpot - B2B Local lead generation
+        @endif
+    </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="apple-touch-icon" href="">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -38,17 +44,13 @@
                 <img alt="" class="logo inline m-r-50" src="{{asset('images/logo-leadspot.png')}}" width="100">
                 <div class="m-t-10 ">
                     <ul class="no-style fs-11 no-padding font-arial">
-                        <li class="inline no-padding"><a class=" text-master p-r-10 b-r b-grey" href="#">Home</a></li>
-                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 b-r b-grey" href="#">Themeforest</a></li>
-                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 b-r b-grey" href="#">Support</a></li>
-                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="#">Made with Pages</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-r-10 b-r b-grey" href="#">Support</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="#">Terms and conditions</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-6 text-right font-arial sm-text-left">
-                <p class="fs-11 no-margin"><span class="hint-text">Exclusive only at</span> Envato Marketplace,Themeforest <span class="hint-text">See</span> Standard licenses &amp; Extended licenses
-                </p>
-                <p class="fs-11 muted">Copyright &copy; 2014 REVOX. All Rights Reserved.</p>
+                <p class="fs-11 m-t-30 muted">Copyright &copy; {{date('Y')}} LeadSpot. All Rights Reserved.</p>
             </div>
         </div>
     </div>

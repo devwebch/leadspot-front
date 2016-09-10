@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', '')
+
 @section('header')
     @parent
 @endsection
@@ -36,7 +38,7 @@
         <div class="text-center">
             <img class="demo-handboofk lazy loaded loaded"
                  data-pages="float"
-                 src="{{asset('images/showcase.png')}}" alt=""
+                 src="{{asset('images/app_showcase.png')}}" alt=""
                  data-max-top-translate="40"
                  data-max-bottom-translate="300"
                  data-speed="-0.1" data-delay="1000"
@@ -50,43 +52,9 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2 ">
                 <div class="text-center">
-                    <h5 class="block-title m-t-40 hint-text m-b-0">Parallax Slide</h5>
-                    <h1 class="light m-t-5 m-b-0">Celebrate Motion paralax scroll.</h1>
-                </div>
-                <div class="row m-t-30">
-                    <div class="col-sm-4">
-                        <div class="progress progress-small m-t-15">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-pages-animate="progressbar" data-percentage="79%">
-                            </div>
-                        </div>
-                        <h3 class="no-margin"><span data-pages-animate="number" data-value="200" data-animation-duration="800">0</span>%</h3>
-                        <p class="font-arial hint-text fs-12">Smoother
-                        </p>
-                        <p>
-                        </p>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="progress progress-small m-t-15">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-pages-animate="progressbar" data-percentage="79%">
-                            </div>
-                        </div>
-                        <h3 class=" no-margin"><span data-pages-animate="number" data-value="200" data-animation-duration="800">0</span>%</h3>
-                        <p class="font-arial hint-text fs-12">Lighter
-                        </p>
-                        <p>
-                        </p>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="progress progress-small m-t-15">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-pages-animate="progressbar" data-percentage="79%">
-                            </div>
-                        </div>
-                        <h3 class=" no-margin"><span data-pages-animate="number" data-value="200" data-animation-duration="800">0</span>ma</h3>
-                        <p class="font-arial hint-text fs-12">Micro Awesomness
-                        </p>
-                        <p>
-                        </p>
-                    </div>
+                    <h2 class="light m-t-5 m-b-20">Give yourself a head start</h2>
+                    <p>Personalize your approach when reaching out clients, with LeadSpot you will have<br>
+                        <strong>relevant informations</strong> about their company, generated through simple processes.</p>
                 </div>
             </div>
         </div>
@@ -116,16 +84,14 @@
     </section>
     <!-- END CONTENT SECTION -->
     <!-- START CONTENT SECTION -->
-    <section class="p-b-50 p-t-50 bg-master-darkest sm-no-margin" data-pages-bg-image="{{asset('images/banner_2.jpg')}}" data-bg-overlay="black" data-overlay-opacity="0.3" data-pages="parallax">
+    <section class="p-b-50 p-t-50 bg-master-darkest sm-no-margin" data-pages-bg-image="{{asset('images/photo-1414690165279-49ab0a9a7e66.jpg')}}" data-bg-overlay="black" data-overlay-opacity="0.3" data-pages="parallax">
         <div class="container p-b-50 p-t-50">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="text-center">
-                        <h1 class="text-white col-sm-12 p-b-10">Start now at no charge!</h1>
-                        <a href="https://go.leadspotapp.com" class="btn btn-lg btn-complete btn-cons btn-rounded m-t-20">Create a free account</a>
-                        <p class="fs-12 font-arial text-white m-t-30">
-                            Paid subscriptions will be available enabling more features.
-                        </p>
+                        <h1 class="text-white col-sm-12">Start now at no charge!</h1>
+                        <p class="text-white col-sm-12 p-b-5">Try without any risk and upgrade once you're ready to grow.</p>
+                        <a href="https://go.leadspotapp.com" class="btn btn-lg btn-danger btn-cons btn-rounded m-t-20 bold">Create a free account</a>
                     </div>
                 </div>
             </div>
