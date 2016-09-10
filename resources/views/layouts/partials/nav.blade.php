@@ -35,47 +35,15 @@
                 <li>
                     <a href="/" data-text="Home" class="active">Home </a>
                 </li>
-                <li class="classic">
-                    <a href="javascript:;" data-text="Elements">Elements <i class="pg-arrow_minimize m-l-5"></i></a>
-                    <nav class="classic ">
-                        <span class="arrow"></span>
-                        <ul>
-                            <li>
-                                <a href="http://pages.revox.io/frontend/1.0/doc/#color" target="_blank">Colors</a>
-                            </li>
-                            <li>
-                                <a href="http://pages.revox.io/frontend/1.0/doc/#icons" target="_blank">Icons</a>
-                            </li>
-                            <li>
-                                <a href="http://pages.revox.io/frontend/1.0/doc/#buttons" target="_blank">Buttons</a>
-                            </li>
-                            <li>
-                                <a href="http://pages.revox.io/frontend/1.0/doc/#modals" target="_blank">Modals</a>
-                            </li>
-                            <li>
-                                <a href="http://pages.revox.io/frontend/1.0/doc/#progress_bars" target="_blank">Progress &amp; Activity</a>
-                            </li>
-                            <li>
-                                <a href="http://pages.revox.io/frontend/1.0/doc/#accordians" target="_blank">Accordians</a>
-                            </li>
-                            <li>
-                                <a href="http://pages.revox.io/frontend/1.0/doc/#tabs" target="_blank">Tabs</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </li>
                 <li>
                     <a href="/pricing" data-text="Pricing">Pricing </a>
-                </li>
-                <li>
-                    <a href="portfolio.html" data-text="Portfolio">Portfolio </a>
                 </li>
                 <li>
                     <a href="contact.html" data-text="Contact">Contact </a>
                 </li>
                 <li>
-                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="http://themeforest.net/item/pages-responsive-admin-dashboard-template/9694847" data-text="Buy now">Buy now</a>
-                    <a class="btn btn-bordered fs-12 btn-black  font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20" href="http://themeforest.net/item/pages-responsive-admin-dashboard-template/9694847">Buy now</a>
+                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="Buy now">Register now</a>
+                    <a class="btn btn-bordered fs-12 btn-black  font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20" href="https://go.leadspotapp.com">Register now</a>
                 </li>
             </ul>
         </div>
