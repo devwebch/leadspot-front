@@ -111,7 +111,7 @@
                         <p class="m-t-0 fs-14 semi-bold">
                             Billed monthly
                         </p>
-                        <a class="m-t-10 btn btn-rounded btn-info bold" href="#">Create a free account</a>
+                        <a class="m-t-10 btn btn-rounded btn-info bold" href="https://go.leadspotapp.com/register">Create a free account</a>
                     </td>
                     <td class="bg-menu text-center p-b-30 p-t-20" data-title="Extended">
                         <p class="m-t-0 fs-14 semi-bold text-white">

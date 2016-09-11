@@ -17,22 +17,25 @@
             </h1>
             <div class="row">
                 <div class="col-md-4 col-md-push-4">
-                    <form action="/contact/send">
+                    @include('shared.errors')
+
+                    <form action="/contact/send" method="post">
+                        {{csrf_field()}}
                         <div class="form-group">
                             <label for="inputFirstName">First name</label>
-                            <input type="text" class="form-control" id="inputFirstName" name="inputFirstName">
+                            <input type="text" class="form-control" id="inputFirstName" name="inputFirstName" value="{{old('inputFirstName')}}">
                         </div>
                         <div class="form-group">
                             <label for="inputLastName">Last name</label>
-                            <input type="text" class="form-control" id="inputLastName" name="inputLastName">
+                            <input type="text" class="form-control" id="inputLastName" name="inputLastName" value="{{old('inputLastName')}}">
                         </div>
                         <div class="form-group">
                             <label for="inputEmail">E-mail address</label>
-                            <input type="email" class="form-control" id="inputEmail" name="inputEmail">
+                            <input type="email" class="form-control" id="inputEmail" name="inputEmail" value="{{old('inputEmail')}}">
                         </div>
                         <div class="form-group">
                             <label for="inputMessage">Message</label>
-                            <textarea name="inputMessage" id="inputMessage" class="form-control" cols="30" rows="10"></textarea>
+                            <textarea name="inputMessage" id="inputMessage" class="form-control" cols="30" rows="10">{{old('inputMessage')}}</textarea>
                         </div>
 
                         <button type="submit" class="btn btn-complete">Send message</button>

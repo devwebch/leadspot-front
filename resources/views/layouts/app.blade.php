@@ -44,8 +44,8 @@
                 <img alt="" class="logo inline m-r-50" src="{{asset('images/logo-leadspot.png')}}" width="100">
                 <div class="m-t-10 ">
                     <ul class="no-style fs-11 no-padding font-arial">
-                        <li class="inline no-padding"><a class="hint-text text-master p-r-10 b-r b-grey" href="#">Support</a></li>
-                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="#">Terms and conditions</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-r-10 b-r b-grey" href="mailto:support@leadspotapp.com">Support</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="/terms-and-conditions">Terms and conditions</a></li>
                     </ul>
                 </div>
             </div>

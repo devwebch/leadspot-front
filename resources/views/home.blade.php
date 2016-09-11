@@ -143,7 +143,7 @@
     <!-- START CONTENT SECTION -->
     <section class="p-b-15 p-t-10 bg-master-darker text-center text-white">
         <h3 class="inline text-white xs-m-b-20">Start finding clients today!</h3>
-        <button class="btn btn-cons btn-bordered m-l-20 xs-no-margin" type="button">Create my free account</button>
+        <a href="https://go.leadspotapp.com" class="btn btn-cons btn-bordered m-l-20 xs-no-margin">Create my free account</a>
     </section>
     <!-- END CONTENT SECTION -->
 @endsection
