@@ -9,7 +9,7 @@
 @section('content')
     <!-- BEGIN JUMBOTRON -->
     <section class="jumbotron full-height bg-primary demo-height-2" data-pages="parallax">
-        <div class="full-height" data-pages-bg-image="{{asset('images/photo-1414690165279-49ab0a9a7e66.jpg')}}" data-bg-overlay="black" data-overlay-opacity="0.4">
+        <div class="full-height" data-pages-bg-image="{{asset('images/photo-1465637735148-7a30f47f5b2b.jpg')}}" data-bg-overlay="black" data-overlay-opacity="0.6">
             <div class="container-xs-height full-height inner">
                 <div class="col-xs-height col-middle text-left">
                     <div class="container">

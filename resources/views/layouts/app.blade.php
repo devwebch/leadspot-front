@@ -30,6 +30,16 @@
     <!-- BEGIN PAGES CSS -->
 </head>
 <body class="pace-complete @yield('body-class')">
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-10894705-3', 'auto');
+    ga('send', 'pageview');
+
+</script>
 <!-- BEGIN HEADER -->
 @section('header')
     @include('layouts.partials.header-transparent')
@@ -60,17 +70,12 @@
 <script src="{{asset('plugins/pace/pace.min.js')}}" type="text/javascript"></script>
 <script type="text/javascript" src="{{asset('plugins/jquery/jquery-1.11.1.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/bootstrap/js/bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('plugins/swiper/js/swiper.jquery.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/velocity/velocity.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/velocity/velocity.ui.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/jquery-appear/jquery.appear.js')}}"></script>
-<script type="text/javascript" src="{{asset('plugins/animateNumber/jquery.animateNumbers.js')}}"></script>
 <!-- END VENDOR JS -->
 <!-- BEGIN PAGES FRONTEND LIB -->
 <script type="text/javascript" src="{{asset('pages/js/pages.frontend.js')}}"></script>
-<!-- END PAGES LIB -->
-<!-- BEGIN YOUR CUSTOM JS -->
-<script type="text/javascript" src="{{asset('js/custom.js')}}"></script>
 <!-- END PAGES LIB -->
 </body>
 </html>
