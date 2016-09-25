@@ -348,6 +348,12 @@
                     <p>External services provided by Google Inc. are used to provide informations used by this website or any subdomains owned by LeadSpot. These services are, but are not limited to: Google Maps, Google AdSense, Google AdWords, Google PageSpeed Insights, Google Places.</p>
                     <p>By using the services provided by this website and any subdomains owned by LeadSpot, you, under the general conditions of Google Inc. hereby agree to the terms and conditions established for these services.</p>
 
+                    <p><strong>SECTION 22 - SUBSCRIPTIONS</strong></p>
+                    <p>Paid subscriptions are available to authorize access to additional contents or functionnalities. The scope of theses contents and functionnalities may be revised at any time without notice.</p>
+
+                    <p><strong>SECTION 22 - REFUNDS</strong></p>
+                    <p>LeadSpot do not offer refunds on paid subscriptions. Subscriptions may be cancelled at any time by LeadSpot upon user's request.</p>
+
                 </div>
             </div>
         </div>
