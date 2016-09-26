@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta content="" name="description" />
+    <meta content="Prospects finder service that analyze local businesses" name="description" />
     <meta content="" name="author" />
     <!-- BEGIN PLUGINS -->
     <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />
