@@ -7,7 +7,7 @@
         @if(View::hasSection('title'))
             @yield('title') - LeadSpot
         @else
-            LeadSpot - B2B Local lead generation
+            LeadSpot - B2B IT lead generation
         @endif
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -16,8 +16,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta content="Prospects finder service that analyze local businesses" name="description" />
-    <meta content="" name="author" />
+    <meta content="Prospects finder and leads generation service, analyze and get relevant insights about local businesses." name="description" />
+    <meta content="LeadSpot" name="author" />
     <!-- BEGIN PLUGINS -->
     <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
