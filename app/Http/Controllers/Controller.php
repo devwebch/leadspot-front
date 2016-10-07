@@ -18,13 +18,19 @@ class Controller extends BaseController
     public function contactSend(Request $request)
     {
         $this->validate($request, [
-            'inputFirstName' => 'required|max:255',
-            'inputLastName' => 'required|max:255',
-            'inputEmail' => 'required|email',
-            'inputMessage' => 'required',
+            'inputFirstName'    => 'required|max:255',
+            'inputLastName'     => 'required|max:255',
+            'inputEmail'        => 'required|email',
+            'inputMessage'      => 'required',
         ]);
 
-        Mail::to('simon.rapin@gmail.com')->send(new Contact($request));
+        // save message
+        $message = new \App\Message();
+        $message->first_name    = $request->input('inputFirstName');
+        $message->last_name     = $request->input('inputLastName');
+        $message->email         = $request->input('inputEmail');
+        $message->message       = $request->input('inputMessage');
+        $message->save();
 
         return back();
     }
