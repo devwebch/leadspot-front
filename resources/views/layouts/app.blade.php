@@ -28,6 +28,20 @@
     <link class="main-stylesheet" href="{{asset('pages/css/pages.css')}}" rel="stylesheet" type="text/css" />
     <link class="main-stylesheet" href="{{asset('pages/css/pages-icons.css')}}" rel="stylesheet" type="text/css" />
     <!-- BEGIN PAGES CSS -->
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://leadspotapp.com",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "email": "contact@leadspotapp.com",
+        "contactType": "customer service",
+        "url": "https://leadspotapp.com/contact"
+      }]
+    }
+    </script>
 </head>
 <body class="pace-complete @yield('body-class')">
 <script>
