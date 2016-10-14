@@ -5,7 +5,7 @@
         <div class="header-inner">
             <!-- BEGIN LOGO -->
             <a href="/">
-                <img src="{{asset('images/logo-leadspot-negative.png')}}" width="152" data-src-retina="{{asset('images/logo-leadspot-negative.png')}}" alt="">
+                <img src="{{asset('images/logo-leadspot-negative.png')}}" width="152" data-src-retina="{{asset('images/logo-leadspot-negative.png')}}" alt="LeadSpot">
             </a>
         </div>
     </div>
@@ -33,17 +33,17 @@
         <div class="header-inner">
             <ul class="menu">
                 <li>
-                    <a href="/" data-text="Home" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>">Home </a>
+                    <a href="/" data-text="Home" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>">Home</a>
                 </li>
                 <li>
-                    <a href="/pricing" data-text="Pricing" class="<?php echo (Route::current()->uri() == 'pricing') ? 'active' : ''; ?>">Pricing </a>
+                    <a href="/pricing" data-text="Pricing" class="<?php echo (Route::current()->uri() == 'pricing') ? 'active' : ''; ?>">Pricing</a>
                 </li>
                 <li>
-                    <a href="/contact" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>">Contact </a>
+                    <a href="/contact" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>">Contact</a>
                 </li>
                 <li>
-                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="Buy now">Register now</a>
-                    <a class="btn btn-bordered fs-12 btn-black  font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20" href="https://go.leadspotapp.com">Register now</a>
+                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="Buy now" title="LeadSpot Dashboard">Dashboard</a>
+                    <a class="btn btn-bordered fs-12 btn-black font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20" href="https://go.leadspotapp.com" title="LeadSpot Dashboard">Dashboard</a>
                 </li>
             </ul>
         </div>

@@ -17,6 +17,10 @@
                             <h1 class="light text-white text-center">Rethink your leads generation process</h1>
                             <h3 class="light text-white text-center">& find local business opportunities</h3>
                         </div>
+                        <div class="col-sm-12 text-center m-t-20">
+                            <a href="#launch" title="Discover LeadSpot" class="btn btn-danger m-r-20">Discover LeadSpot</a>
+                            <a href="https://go.leadspotapp.com/register" title="Register on LeadSpot" target="_blank" class="btn btn-bordered btn-white">Register now</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -132,7 +136,7 @@
                     </div>
                     <div class="col-sm-7 col-md-8 no-padding xs-p-l-15 xs-p-r-15">
                         <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
-                            <p>LeadSpot helps you finding great potential client by analyzing their current presence on the internet, stop wasting time researching manually your leads, meet them with accurate, relevent data.</p>
+                            <p>LeadSpot helps you finding great potential client by analyzing their current presence on the internet, stop wasting time researching manually your leads, meet them with accurate, relevant data.</p>
                         </div>
                     </div>
                 </div>
@@ -143,7 +147,7 @@
     <!-- START CONTENT SECTION -->
     <section class="p-b-15 p-t-10 bg-master-darker text-center text-white">
         <h3 class="inline text-white xs-m-b-20">Start finding clients today!</h3>
-        <a href="https://go.leadspotapp.com" class="btn btn-cons btn-bordered m-l-20 xs-no-margin">Create my free account</a>
+        <a href="https://go.leadspotapp.com" title="Create a free account" class="btn btn-cons btn-bordered m-l-20 xs-no-margin">Create my free account</a>
     </section>
     <!-- END CONTENT SECTION -->
 @endsection
