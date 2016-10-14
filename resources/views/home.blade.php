@@ -8,7 +8,7 @@
 
 @section('content')
     <!-- BEGIN JUMBOTRON -->
-    <section class="jumbotron full-height bg-primary demo-height-2" data-pages="parallax">
+    <section class="jumbotron full-height bg-info-dark demo-height-2" data-pages="parallax">
         <div class="full-height" data-pages-bg-image="{{asset('images/jumbotron-1.jpg')}}" data-bg-overlay="black" data-overlay-opacity="0.6">
             <div class="container-xs-height full-height inner">
                 <div class="col-xs-height col-middle text-left">
@@ -18,8 +18,8 @@
                             <h3 class="light text-white text-center">& find local business opportunities</h3>
                         </div>
                         <div class="col-sm-12 text-center m-t-20">
-                            <a href="#launch" title="Discover LeadSpot" class="btn btn-danger m-r-20">Discover LeadSpot</a>
-                            <a href="https://go.leadspotapp.com/register" title="Register on LeadSpot" target="_blank" class="btn btn-bordered btn-white">Register now</a>
+                            <a href="#launch" title="Discover LeadSpot" class="btn btn-danger btn-lg m-r-20">Discover LeadSpot</a>
+                            <a href="https://go.leadspotapp.com/register" title="Register on LeadSpot" target="_blank" class="btn btn-bordered btn-white btn-lg">Register now</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
     </section>
     <!-- END CONTENT SECTION -->
     <!-- START CONTENT SECTION -->
-    <section class="p-b-50 p-t-50 bg-master-darkest sm-no-margin" data-pages-bg-image="{{asset('images/photo-1414690165279-49ab0a9a7e66.jpg')}}" data-bg-overlay="black" data-overlay-opacity="0.3" data-pages="parallax">
+    <section class="p-b-50 p-t-50 bg-master-darkest sm-no-margin" data-pages-bg-image="{{asset('images/photo-1465637735148-7a30f47f5b2b.jpg')}}" data-bg-overlay="black" data-overlay-opacity="0.7" data-pages="parallax">
         <div class="container p-b-50 p-t-50">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
