@@ -33,6 +33,7 @@
     {
       "@context": "http://schema.org",
       "@type": "Organization",
+      "name": "LeadSpot",
       "url": "https://leadspotapp.com",
       "contactPoint": [{
         "@type": "ContactPoint",

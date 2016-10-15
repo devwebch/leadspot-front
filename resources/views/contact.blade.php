@@ -10,7 +10,7 @@
 
 @section('content')
     <!-- BEGIN PRICING SECTION -->
-    <section class="p-t-40 p-b-75 sm-p-t-30">
+    <section class="p-t-10 p-b-75 sm-p-t-30">
         <div class="container">
             <h1 class="text-center m-b-30">
                 Contact us

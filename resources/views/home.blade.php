@@ -72,7 +72,7 @@
                     <div class="col-sm-5">
                         <h1 class="m-t-5 m-b-20">Find local business opportunities.</h1>
                         <p class="m-b-20">Analyze the web presence of local companies and evaluate their need automatically through our tool.</p>
-                        <p class="hint-text font-arial small-text col-md-8 no-padding">Use extended search parameters to locate relevent clients.</p>
+                        <p class="hint-text font-arial small-text col-md-8 no-padding">Use extended search parameters to locate relevant clients.</p>
                     </div>
                     <div class="col-sm-7 no-padding xs-p-l-15 xs-p-r-15">
                         <div class="content-mask-md">
@@ -132,11 +132,11 @@
                 <h5 class="block-title hint-text no-margin">Be efficient</h5>
                 <div class="row">
                     <div class="col-sm-5 col-md-4">
-                        <h1 class="m-t-5">Find clients that needs you</h1>
+                        <h1 class="m-t-5">Find clients that need you</h1>
                     </div>
                     <div class="col-sm-7 col-md-8 no-padding xs-p-l-15 xs-p-r-15">
                         <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
-                            <p>LeadSpot helps you finding great potential client by analyzing their current presence on the internet, stop wasting time researching manually your leads, meet them with accurate, relevant data.</p>
+                            <p>LeadSpot helps you finding great potential clients by analyzing their current presence on the internet, stop wasting time researching manually your leads, meet them with accurate, relevant data.</p>
                         </div>
                     </div>
                 </div>
