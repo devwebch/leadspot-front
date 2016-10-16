@@ -43,7 +43,7 @@
                 </li>
                 <li>
                     <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="Buy now" title="LeadSpot Dashboard">Dashboard</a>
-                    <a class="btn btn-bordered fs-12 btn-black font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20" href="https://go.leadspotapp.com" title="LeadSpot Dashboard">Dashboard</a>
+                    <a class="btn btn-bordered fs-12 btn-black font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20 m-t-10" href="https://go.leadspotapp.com" title="LeadSpot Dashboard">Dashboard</a>
                 </li>
             </ul>
         </div>

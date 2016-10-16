@@ -922,6 +922,7 @@ body.pace-white .pace .pace-progress {
 [data-pages-bg-image] {
   background-size: cover;
   position: relative;
+  background-position: center;
 }
 [data-pages-bg-image] > * {
   z-index: 1;

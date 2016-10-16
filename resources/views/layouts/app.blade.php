@@ -20,7 +20,7 @@
     <meta content="LeadSpot" name="author" />
     <!-- BEGIN PLUGINS -->
     <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('plugins/font-awesome/css/font-awesome.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('plugins/swiper/css/swiper.css')}}" rel="stylesheet" type="text/css" media="screen" />
     <!-- END PLUGINS -->
@@ -83,7 +83,8 @@
 <!-- END FOOTER -->
 <!-- BEGIN VENDOR JS -->
 <script src="{{asset('plugins/pace/pace.min.js')}}" type="text/javascript"></script>
-<script type="text/javascript" src="{{asset('plugins/jquery/jquery-1.11.1.min.js')}}"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{asset('plugins/jquery/jquery-1.11.1.min.js')}}"><\/script>')</script>
 <script type="text/javascript" src="{{asset('plugins/bootstrap/js/bootstrap.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/velocity/velocity.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/velocity/velocity.ui.js')}}"></script>

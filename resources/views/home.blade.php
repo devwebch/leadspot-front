@@ -18,7 +18,7 @@
                             <h3 class="light text-white text-center">& find local business opportunities</h3>
                         </div>
                         <div class="col-sm-12 text-center m-t-20">
-                            <a href="#launch" title="Discover LeadSpot" class="btn btn-danger btn-lg m-r-20">Discover LeadSpot</a>
+                            <a href="#launch" title="Discover LeadSpot" class="btn btn-danger btn-discover btn-lg xs-m-b-20">Discover LeadSpot</a>
                             <a href="https://go.leadspotapp.com/register" title="Register on LeadSpot" target="_blank" class="btn btn-bordered btn-white btn-lg">Register now</a>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
             <img class="m-t-30" src="{{asset('images/arrow_down_2.png')}}" alt="">
         </div>
         <div class="text-center">
-            <img class="demo-handboofk lazy loaded loaded"
+            <img class="demo-handboofk lazy loaded loaded xs-image-responsive-height image-responsive-width"
                  data-pages="float"
                  src="{{asset('images/app_showcase.png')}}" alt=""
                  data-max-top-translate="40"
@@ -77,7 +77,7 @@
                     <div class="col-sm-7 no-padding xs-p-l-15 xs-p-r-15">
                         <div class="content-mask-md">
                             <div class="device_morph pull-center-inner" id="iphone01" data-pages="float" data-max-top-translate="40" data-max-bottom-translate="300" data-speed="-0.1" data-delay="1000" data-curve="ease">
-                                <img alt="" class="xs-image-responsive-height image-responsive-width"
+                                <img alt="Find local businesses on LeadSpot" class="xs-image-responsive-height image-responsive-width"
                                      src="{{asset('images/map_example.png')}}">
                             </div>
                         </div>
@@ -115,7 +115,7 @@
                     <div class="col-sm-7 no-padding xs-p-l-15 xs-p-r-15">
                         <div class="content-mask-md">
                             <div class="device_morph pull-center-inner" id="iphone01" data-pages="float" data-max-top-translate="40" data-max-bottom-translate="300" data-speed="-0.1" data-delay="1000" data-curve="ease">
-                                <img alt="" class="xs-image-responsive-height image-responsive-width"
+                                <img alt="Manage clients with LeadSpot" class="xs-image-responsive-height image-responsive-width"
                                      src="{{asset('images/list_example.png')}}">
                             </div>
                         </div>
@@ -147,7 +147,7 @@
     <!-- START CONTENT SECTION -->
     <section class="p-b-15 p-t-10 bg-master-darker text-center text-white">
         <h3 class="inline text-white xs-m-b-20">Start finding clients today!</h3>
-        <a href="https://go.leadspotapp.com" title="Create a free account" class="btn btn-cons btn-bordered m-l-20 xs-no-margin">Create my free account</a>
+        <a href="https://go.leadspotapp.com" title="Create a free account" class="btn btn-cons btn-bordered m-l-20 m-b-10 xs-no-margin">Create my free account</a>
     </section>
     <!-- END CONTENT SECTION -->
 @endsection
