@@ -28,7 +28,7 @@
     </section>
     <!-- END JUMBOTRON -->
     <!-- BEGIN SECTION -->
-    <section id="launch" class="p-b-60 p-t-60 no-overflow relative" style="min-height:730px">
+    <section id="launch" class="p-b-60 p-t-60 no-overflow relative" style="min-height:630px">
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
