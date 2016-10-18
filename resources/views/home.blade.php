@@ -95,7 +95,7 @@
                     <div class="text-center">
                         <h1 class="text-white col-sm-12">Start now at no charge!</h1>
                         <p class="text-white col-sm-12 p-b-5">Try without any risk and upgrade once you're ready to grow.</p>
-                        <a href="https://go.leadspotapp.com" class="btn btn-lg btn-danger btn-cons btn-rounded m-t-20 bold">Create a free account</a>
+                        <a href="https://go.leadspotapp.com/register" class="btn btn-lg btn-danger btn-cons btn-rounded m-t-20 bold">Create a free account</a>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,7 @@
     <!-- START CONTENT SECTION -->
     <section class="p-b-15 p-t-10 bg-master-darker text-center text-white">
         <h3 class="inline text-white xs-m-b-20">Start finding clients today!</h3>
-        <a href="https://go.leadspotapp.com" title="Create a free account" class="btn btn-cons btn-bordered m-l-20 m-b-10 xs-no-margin">Create my free account</a>
+        <a href="https://go.leadspotapp.com/register" title="Create a free account" class="btn btn-cons btn-bordered m-l-20 m-b-10 xs-no-margin">Create my free account</a>
     </section>
     <!-- END CONTENT SECTION -->
 @endsection
