@@ -8,126 +8,132 @@
     @include('layouts.partials.header-solid')
 @endsection
 
+@section('styles')
+    <style>
+        .bg-red {
+            background: #b94a67;
+        }
+        .bg-blue {
+            background: #5b9ec1;
+        }
+    </style>
+@endsection
+
 @section('content')
+
     <!-- BEGIN PRICING SECTION -->
     <section class="p-t-40 p-b-75 sm-p-t-30">
         <div class="container">
             <h1 class="text-center m-b-5">
                 Plans fitted to your needs
             </h1>
-            <h3 class="text-center m-t-5">
-                Start safely with a <strong class="font-montserrat all-caps">free</strong> account.
-            </h3>
-            <table class="table table-striped pricing-table no-border m-t-60">
-                <thead>
-                <tr>
-                    <th class="no-border"></th>
-                    <th class="text-center v-align-top no-padding bg-master-lightest" style="width: 22%;">
-                        <div class="bg-menu-dark">
-                            <p class="block-title text-white padding-10 fs-14 no-margin">
-                                Beginner
-                            </p>
+            <!-- Start pricing -->
+            <div class="p-l-30 p-r-30 m-t-40">
+                <div class="row">
+                    <!-- free -->
+                    <div class="col-sm-3 p-l-5 p-r-5">
+                        <div class="pricing-headingm m-t-45">
+                            <div class="bg-white p-t-60 p-b-60">
+                                <h2 class="text-center m-b-25 font-montserrat">FREE</h2>
+                                <p class="hint-text text-center">For first timers</p>
+                            </div>
+                            <div class="bg-master-lighter p-t-20 p-b-20">
+                                <h5 class="block-title text-center no-margin">FREE</h5>
+                            </div>
                         </div>
-                        <p class="font-montserrat m-t-30 m-b-30 lh-large">FREE</p>
-                    </th>
-                    <th class="text-center bg-menu v-align-top no-padding" style="width: 22%;">
-                        <p class="block-title text-white padding-10 fs-14 text-warning">
-                            Professional
-                        </p>
-                        <p class="font-montserrat text-white m-t-30 m-b-30 lh-large">
-                            50 <sup class="fs-14 dollar">USD</sup> / mo
-                        </p>
-                    </th>
-                    <th class="text-center v-align-top no-padding bg-master-lightest" style="width: 22%;">
-                        <div class="bg-menu-dark">
-                            <p class="block-title text-white padding-10 fs-14 no-margin">
-                                Advanced
-                            </p>
+                        <div class="pricing-details bg-white p-t-30 p-b-30 p-l-40 p-r-40 md-p-l-20 md-p-r-20">
+                            <ul class="no-style">
+                                <li class="text-black normal m-b-25"><span class="bold">One</span> user</li>
+                                <li class="text-black normal m-b-25"><span class="bold">60</span> company searches</li>
+                                <li class="text-black normal m-b-25"><span class="bold">10</span> email lookups</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://go.leadspotapp.com/register" class="btn btn-info btn-block btn-lg all-caps">Subscribe</a>
+                            </div>
                         </div>
-                        <p class="font-montserrat m-t-30 m-b-30 lh-large">
-                            25 <sup class="fs-14 dollar">USD</sup> / mo
-                        </p>
-                    </th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr class="bg-master-lightest">
-                    <td>
-                        <p class="p-l-10 m-t-10 fs-14 semi-bold">
-                            Number of website analysis per day
-                        </p>
-                    </td>
-                    <td class="text-center" data-title="Regular">
-                        <p class="block-title text-info m-t-10 fs-14">
-                            10
-                        </p>
-                    </td>
-                    <td class="bg-menu text-center" data-title="Extended">
-                        <p class="block-title text-white m-t-10 fs-14">
-                            No limit
-                        </p>
-                    </td>
-                    <td class="text-center" data-title="Custom">
-                        <p class="block-title text-info m-t-10 fs-14">
-                            30
-                        </p>
-                    </td>
-                </tr>
-                <tr class="bg-transparent">
-                    <td class="v-align-middle">
-                        <p class="p-l-10 m-t-10 fs-14 semi-bold">
-                            Use in a single end product
-                        </p>
-                    </td>
-                    <td class="text-center" data-title="Regular">
-                        <h4 class="fa fa-times text-info m-t-15 fs-14"></h4>
-                    </td>
-                    <td class="bg-menu text-center" data-title="Extended">
-                        <h4 class="fa fa-check text-warning m-t-15 fs-14"></h4>
-                    </td>
-                    <td class="text-center" data-title="Custom">
-                        <h4 class="fa fa-check text-info m-t-15 fs-14"></h4>
-                    </td>
-                </tr>
-                <tr class="bg-master-lightest">
-                    <td class="v-align-middle">
-                        <p class="p-l-10 m-t-10 fs-14 semi-bold">
-                            Use in a single end product
-                        </p>
-                    </td>
-                    <td class="text-center" data-title="Regular">
-                        <h4 class="fa fa-times text-info m-t-15 fs-14"></h4>
-                    </td>
-                    <td class="bg-menu text-center" data-title="Extended">
-                        <h4 class="fa fa-check text-warning m-t-15 fs-14"></h4>
-                    </td>
-                    <td class="text-center" data-title="Custom">
-                        <h4 class="fa fa-check text-info m-t-15 fs-14"></h4>
-                    </td>
-                </tr>
-                <tr class="bg-transparent">
-                    <td class=""></td>
-                    <td class="text-center p-b-30 p-t-20" data-title="Regular">
-                        <p class="m-t-0 fs-14 semi-bold">
-                            Billed monthly
-                        </p>
-                        <a class="m-t-10 btn btn-rounded btn-info bold" href="https://go.leadspotapp.com/register">Create a free account</a>
-                    </td>
-                    <td class="bg-menu text-center p-b-30 p-t-20" data-title="Extended">
-                        <p class="m-t-0 fs-14 semi-bold text-white">
-                            Billed monthly
-                        </p>
-                        <a class="m-t-10 btn btn-rounded btn-warning bold" href="#">Coming soon</a>
-                    </td>
-                    <td class="text-center p-b-30 p-t-20" data-title="Custom">
-                        <p class="m-t-0 fs-14 semi-bold">
-                            Billed monthly
-                        </p>
-                        <a class="m-t-10 btn btn-rounded btn-complete bold" href="#">Coming soon</a>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+                    </div>
+                    <!-- /free -->
+                    <!-- boutique -->
+                    <div class="col-sm-3 p-l-5 p-r-5">
+                        <div class="pricing-headingm m-t-45">
+                            <div class="bg-white p-t-60 p-b-60">
+                                <h2 class="text-center m-b-25 font-montserrat">$49<span class="hint-text">/mo</span></h2>
+                                <p class="hint-text text-center">For freelancers</p>
+                            </div>
+                            <div class="bg-info-light p-t-20 p-b-20">
+                                <h5 class="block-title text-center text-white no-margin bold">Boutique</h5>
+                            </div>
+                        </div>
+                        <div class="pricing-details bg-white p-t-30 p-b-30 p-l-40 p-r-40 md-p-l-20 md-p-r-20">
+                            <ul class="no-style">
+                                <li class="text-black normal m-b-25"><span class="bold">One</span> user</li>
+                                <li class="text-black normal m-b-25"><span class="bold">1'000</span> company searches</li>
+                                <li class="text-black normal m-b-25"><span class="bold">500</span> email lookups</li>
+                                <li class="text-black normal m-b-25"><span class="bold">CMS</span> detector</li>
+                                <li class="text-black normal m-b-25">&nbsp;</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://go.leadspotapp.com/register" class="btn btn-info btn-block btn-lg all-caps">Subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /boutique -->
+                    <!-- company -->
+                    <div class="col-sm-3 p-l-5 p-r-5 xs-m-t-40">
+                        <div class="pricing-heading xs-p-t-10">
+                            <div class="m-l-15 m-r-15 bg-red" style="height: 45px; padding: 8px;">
+                                <h5 class="block-title text-center text-white no-margin">Recommended</h5>
+                            </div>
+                            <div class="bg-white p-t-60 p-b-60">
+                                <h2 class="text-center m-b-25 font-montserrat">$129<span class="hint-text">/mo</span></h2>
+                                <p class="hint-text text-center">For growing teams</p>
+                            </div>
+                            <div class="bg-red p-t-20 p-b-20">
+                                <h5 class="block-title text-center text-white no-margin bold">Company</h5>
+                            </div>
+                        </div>
+                        <div class="pricing-details bg-white p-t-30 p-b-30 p-l-40 p-r-40 md-p-l-20 md-p-r-20">
+                            <ul class="no-style">
+                                <li class="text-black normal m-b-25"><span class="bold">3</span> team members</li>
+                                <li class="text-black normal m-b-25"><span class="bold">5'000</span> company searches</li>
+                                <li class="text-black normal m-b-25"><span class="bold">2'000</span> email lookups</li>
+                                <li class="text-black normal m-b-25"><span class="bold">CMS</span> detector</li>
+                                <li class="text-black normal m-b-25"><span class="bold">PDF</span> reports</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://go.leadspotapp.com/register" class="btn btn-info btn-block btn-lg all-caps">Subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /company -->
+                    <!-- agency -->
+                    <div class="col-sm-3 p-l-5 p-r-5">
+                        <div class="pricing-heading m-t-45 ">
+                            <div class="bg-white p-t-60 p-b-60">
+                                <h2 class="text-center m-b-25 font-montserrat">$499<span class="hint-text">/mo</span></h2>
+                                <p class="hint-text text-center">For serious players</p>
+                            </div>
+                            <div class="bg-warning p-t-20 p-b-20">
+                                <h5 class="block-title text-center text-white no-margin bold">Agency</h5>
+                            </div>
+                        </div>
+                        <div class="pricing-details bg-white p-t-30 p-b-30 p-l-40 p-r-40 md-p-l-20 md-p-r-20">
+                            <ul class="no-style">
+                                <li class="text-black normal m-b-25"><span class="bold">Unlimited</span> team members</li>
+                                <li class="text-black normal m-b-25"><span class="bold">50'000</span> company searches</li>
+                                <li class="text-black normal m-b-25"><span class="bold">10'000</span> email lookups</li>
+                                <li class="text-black normal m-b-25"><span class="bold">CMS</span> detector</li>
+                                <li class="text-black normal m-b-25"><span class="bold">PDF</span> reports</li>
+                            </ul>
+                            <div class="text-center">
+                                <a href="https://go.leadspotapp.com/register" class="btn btn-info btn-block btn-lg all-caps">Subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /agency -->
+                </div>
+            </div>
+            <!-- End pricing -->
         </div>
     </section>
     <!-- END PRICING SECTION -->

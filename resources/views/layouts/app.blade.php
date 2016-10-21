@@ -43,6 +43,8 @@
       }]
     }
     </script>
+
+    @yield('styles')
 </head>
 <body class="pace-complete @yield('body-class')">
 <script>
