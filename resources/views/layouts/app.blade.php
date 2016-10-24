@@ -35,12 +35,16 @@
       "@type": "Organization",
       "name": "LeadSpot",
       "url": "https://leadspotapp.com",
+      "logo": "https://leadspotapp.com/images/icn_152x152.png",
       "contactPoint": [{
         "@type": "ContactPoint",
         "email": "contact@leadspotapp.com",
         "contactType": "customer service",
-        "url": "https://leadspotapp.com/contact"
-      }]
+        "url": "https://leadspotapp.com"
+      }],
+      "sameAs": [
+        "https://plus.google.com/+leadspotapp"
+      ]
     }
     </script>
 
