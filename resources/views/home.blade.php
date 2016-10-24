@@ -14,7 +14,7 @@
                 <div class="col-xs-height col-middle text-left">
                     <div class="container">
                         <div class="col-sm-12">
-                            <h1 class="light text-white text-center">{{trans('home.jumbotron_title')}}</h1>
+                            <h1 class="light text-white text-center">{!! trans('home.jumbotron_title') !!}</h1>
                             <h3 class="light text-white text-center">{{trans('home.jumbotron_sub')}}</h3>
                         </div>
                         <div class="col-sm-12 text-center m-t-20">
