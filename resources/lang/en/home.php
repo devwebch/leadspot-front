@@ -1,0 +1,28 @@
+<?php
+return [
+    'jumbotron_title'           => 'Rethink your leads generation process',
+    'jumbotron_sub'             => '& find local business opportunities',
+    'discover_leadspot'         => 'Discover LeadSpot',
+    'register_now'              => 'Register now',
+    'register_leadspot'         => 'Register on LeadSpot',
+    'find_clients'              => 'Find clients',
+    'struggle_clients'          => 'Are you struggling to find<br>new clients?',
+    'struggle_clients_msg'      => 'As a young agency or freelancer, finding your first clients<br>may be quite difficult, <strong>let\'s make it simple</strong>.',
+    'head_start'                => 'Give yourself a head start',
+    'head_start_msg'            => 'Personalize your approach when reaching out clients, with LeadSpot you will have<br><strong>relevant informations</strong> about their company, generated through simple processes.',
+    'search'                    => 'Search',
+    'find_businesses'           => 'Find local business opportunities.',
+    'find_businesses_msg'       => 'Analyze the web presence of local companies and evaluate their need automatically through our tool.',
+    'find_businesses_msg_2'     => 'Use extended search parameters to locate relevant clients.',
+    'start_now_no_charge'       => 'Start now at no charge!',
+    'start_now_no_charge_msg'   => 'Try without any risk and upgrade once you\'re ready to grow.',
+    'create_free_account'       => 'Create a free account',
+    'go_further'                => 'Go further',
+    'manage_clients'            => 'Manage your future clients',
+    'manage_clients_msg'        => 'Categorize and manage contact informations.',
+    'be_efficient'              => 'Be efficient',
+    'find_clients_need'         => 'Find clients that need you',
+    'find_clients_need_msg'     => 'LeadSpot helps you finding great potential clients by analyzing their current presence on the internet, stop wasting time researching manually your leads, meet them with accurate, relevant data.',
+    'start_finding'             => 'Start finding clients today!',
+
+];
