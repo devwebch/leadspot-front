@@ -7,7 +7,7 @@
         @if(View::hasSection('title'))
             @yield('title') - LeadSpot
         @else
-            LeadSpot - B2B IT lead generation
+            LeadSpot - {{trans('app.metas.title')}}
         @endif
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta content="Prospects finder and leads generation service, analyze and get relevant insights about local businesses." name="description" />
+    <meta content="{{trans('app.metas.description')}}" name="description" />
     <meta content="LeadSpot" name="author" />
     <!-- BEGIN PLUGINS -->
     <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />
@@ -68,16 +68,16 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img alt="" class="logo inline m-r-50" src="{{asset('images/logo-leadspot.png')}}" width="100">
+                <img alt="LeadSpot" class="logo inline m-r-50" src="{{asset('images/logo-leadspot.png')}}" width="100">
                 <div class="m-t-10 ">
                     <ul class="no-style fs-11 no-padding font-arial">
-                        <li class="inline no-padding"><a class="hint-text text-master p-r-10 b-r b-grey" href="mailto:support@leadspotapp.com">Support</a></li>
-                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="/terms-and-conditions">Terms and conditions</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-r-10 b-r b-grey" href="mailto:support@leadspotapp.com">{{trans('footer.nav.support')}}</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="/terms-and-conditions">{{trans('footer.nav.terms')}}</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-6 text-right font-arial sm-text-left">
-                <p class="fs-11 m-t-30 muted">Copyright &copy; {{date('Y')}} LeadSpot. All Rights Reserved.</p>
+                <p class="fs-11 m-t-30 muted">Copyright &copy; {{date('Y')}} LeadSpot. {{trans('footer.copyright')}}</p>
             </div>
         </div>
     </div>

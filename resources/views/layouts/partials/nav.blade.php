@@ -33,17 +33,17 @@
         <div class="header-inner">
             <ul class="menu">
                 <li>
-                    <a href="/" data-text="Home" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>">Home</a>
+                    <a href="/" data-text="Home" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>" title="{{trans('nav.home')}}">{{trans('nav.home')}}</a>
                 </li>
                 <li>
-                    <a href="/pricing" data-text="Pricing" class="<?php echo (Route::current()->uri() == 'pricing') ? 'active' : ''; ?>">Pricing</a>
+                    <a href="/pricing" data-text="Pricing" class="<?php echo (Route::current()->uri() == 'pricing') ? 'active' : ''; ?>" title="{{trans('nav.pricing')}}">{{trans('nav.pricing')}}</a>
                 </li>
                 <li>
-                    <a href="/contact" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>">Contact</a>
+                    <a href="/contact" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>" title="{{trans('nav.contact')}}">{{trans('nav.contact')}}</a>
                 </li>
                 <li>
-                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="Buy now" title="LeadSpot Dashboard">Dashboard</a>
-                    <a class="btn btn-bordered fs-12 btn-black font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20 m-t-10" href="https://go.leadspotapp.com" title="LeadSpot Dashboard">Dashboard</a>
+                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="{{trans('nav.contact')}}" title="{{trans('nav.contact')}}">{{trans('nav.dashboard')}}</a>
+                    <a class="btn btn-bordered fs-12 btn-black font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20 m-t-10" href="https://go.leadspotapp.com" title="{{trans('nav.contact')}}">{{trans('nav.dashboard')}}</a>
                 </li>
             </ul>
         </div>
