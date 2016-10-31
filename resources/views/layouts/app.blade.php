@@ -43,7 +43,8 @@
         "url": "https://leadspotapp.com"
       }],
       "sameAs": [
-        "https://plus.google.com/+leadspotapp"
+        "https://plus.google.com/+leadspotapp",
+        "https://twitter.com/leadspotapp"
       ]
     }
     </script>
