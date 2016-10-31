@@ -4,6 +4,8 @@
 
 @section('title', 'Terms and conditions')
 
+@section('description', trans('terms.metas.description'))
+
 @section('header')
     @include('layouts.partials.header-solid')
 @endsection

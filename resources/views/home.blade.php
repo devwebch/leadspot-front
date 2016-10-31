@@ -2,6 +2,8 @@
 
 @section('title', '')
 
+@section('description', trans('home.metas.description'))
+
 @section('header')
     @parent
 @endsection

@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta content="{{trans('app.metas.description')}}" name="description" />
+    <meta content="@yield('description')" name="description" />
     <meta content="LeadSpot" name="author" />
     <!-- BEGIN PLUGINS -->
     <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />

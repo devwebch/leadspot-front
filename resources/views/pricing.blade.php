@@ -4,6 +4,8 @@
 
 @section('title', trans('pricing.general.pricing'))
 
+@section('description', trans('pricing.metas.description'))
+
 @section('header')
     @include('layouts.partials.header-solid')
 @endsection

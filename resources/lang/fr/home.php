@@ -1,5 +1,8 @@
 <?php
 return [
+    'metas'     => [
+        'description'           => 'LeadSpot est une application de génération de prospects, analysez et recevez des informations pertinentes à propos d\'entreprises locales.',
+    ],
     'jumbotron_title'           => 'Repensez votre processus<br>de génération de prospects',
     'jumbotron_sub'             => '& trouvez des opportunités locales',
     'discover_leadspot'         => 'Découvrir LeadSpot',

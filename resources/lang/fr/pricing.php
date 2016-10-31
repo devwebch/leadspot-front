@@ -1,5 +1,8 @@
 <?php
 return [
+    'metas'     => [
+        'description'   => "Commencez à utiliser LeadSpot avec nos compte gratuit et optez pour l'un de nos plans lorque votre équipe s'agrandit.",
+    ],
     'general'   => [
         'pricing'       => 'Prix',
         'plans_fitted'  => 'Des plans adaptés à vos besoins',

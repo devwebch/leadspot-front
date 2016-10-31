@@ -1,5 +1,8 @@
 <?php
 return [
+    'metas'     => [
+        'description'           => 'LeadSpot is a prospects finder and leads generation service, analyze and get relevant insights about local businesses.',
+    ],
     'jumbotron_title'           => 'Rethink your leads generation process',
     'jumbotron_sub'             => '& find local business opportunities',
     'discover_leadspot'         => 'Discover LeadSpot',

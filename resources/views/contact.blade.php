@@ -4,6 +4,8 @@
 
 @section('title', trans('contact.contact'))
 
+@section('description', trans('contact.metas.description'))
+
 @section('header')
     @include('layouts.partials.header-solid')
 @endsection
