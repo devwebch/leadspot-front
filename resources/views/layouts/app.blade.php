@@ -3,6 +3,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
     <title>
         @if(View::hasSection('title'))
             @yield('title') - LeadSpot
@@ -10,14 +12,24 @@
             LeadSpot - {{trans('app.metas.title')}}
         @endif
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Android navbar color -->
+    <meta name="theme-color" content="#b94a67">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#b94a67">
+    <!-- IOS -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#b94a67">
+
+    <link rel="canonical" href="{{url()->full()}}" />
+    <meta content="LeadSpot" name="author" />
+    <link rel="publisher" href="https://plus.google.com/+leadspotapp"/>
+
+    <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" href="{{asset('images/icn_152x152.png')}}">
     <link rel="icon" type="image/x-icon" href="{{asset('images/icn_152x152.png')}}" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta content="@yield('description')" name="description" />
-    <meta content="LeadSpot" name="author" />
     <!-- BEGIN PLUGINS -->
     <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css" />
