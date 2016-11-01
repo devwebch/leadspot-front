@@ -15,13 +15,15 @@
             <div class="container-xs-height full-height inner">
                 <div class="col-xs-height col-middle text-left">
                     <div class="container">
-                        <div class="col-sm-12">
-                            <h1 class="light text-white text-center">{!! trans('home.jumbotron_title') !!}</h1>
-                            <h3 class="light text-white text-center">{{trans('home.jumbotron_sub')}}</h3>
-                        </div>
-                        <div class="col-sm-12 text-center m-t-20">
-                            <a href="#launch" title="Discover LeadSpot" class="btn btn-danger btn-discover btn-lg xs-m-b-20">{{trans('home.discover_leadspot')}}</a>
-                            <a href="https://go.leadspotapp.com/register" title="{{trans('home.register_leadspot')}}" target="_blank" class="btn btn-bordered btn-white btn-lg">{{trans('home.register_now')}}</a>
+                        <div class="row">
+                            <div class="col-sm-8 col-sm-push-2">
+                                <h1 class="light text-white text-center">{!! trans('home.jumbotron_title') !!}</h1>
+                                <h3 class="light text-white text-center">{{trans('home.jumbotron_sub')}}</h3>
+                            </div>
+                            <div class="col-xs-8 col-xs-push-2 text-center m-t-20">
+                                <a href="#launch" title="Discover LeadSpot" class="btn btn-danger btn-discover btn-lg xs-m-b-20">{{trans('home.discover_leadspot')}}</a>
+                                <a href="https://go.leadspotapp.com/register" title="{{trans('home.register_leadspot')}}" target="_blank" class="btn btn-bordered btn-white btn-lg">{{trans('home.register_now')}}</a>
+                            </div>
                         </div>
                     </div>
                 </div>
