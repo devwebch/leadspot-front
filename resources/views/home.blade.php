@@ -26,7 +26,7 @@
                 exitTopDistance: 20,
                 scrollTopDistance: 400,
                 // Popup cookies
-                setCookie: false,
+                setCookie: true,
                 cookieDays: 30,
                 cookieTriggerClass: 'setCookie-1',
                 cookieName: 'slickModal-1',
@@ -71,10 +71,10 @@
                 reopenClass: 'openSlickModal-1',
                 // Additional events
                 onSlickLoad: function() {
-                    console.log("Slick is visible")
+
                 },
                 onSlickClose: function() {
-                    console.log("Slick is hidden")
+
                 }
             });
 
