@@ -39,6 +39,7 @@
     <!-- BEGIN PAGES CSS -->
     <link class="main-stylesheet" href="{{asset('pages/css/pages.css')}}" rel="stylesheet" type="text/css" />
     <link class="main-stylesheet" href="{{asset('pages/css/pages-icons.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/slick-modal-min.css')}}" rel="stylesheet" type="text/css" />
     <!-- BEGIN PAGES CSS -->
 
     <script type="application/ld+json">
@@ -100,17 +101,16 @@
     </div>
 </section>
 <!-- END FOOTER -->
-<!-- BEGIN VENDOR JS -->
-<script src="{{asset('plugins/pace/pace.min.js')}}" type="text/javascript"></script>
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{asset('plugins/jquery/jquery-1.11.1.min.js')}}"><\/script>')</script>
-<script type="text/javascript" src="{{asset('plugins/bootstrap/js/bootstrap.min.js')}}"></script>
+
+<script type="text/javascript" src="{{asset('plugins/pace/pace.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/velocity/velocity.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/velocity/velocity.ui.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/jquery-appear/jquery.appear.js')}}"></script>
-<!-- END VENDOR JS -->
-<!-- BEGIN PAGES FRONTEND LIB -->
 <script type="text/javascript" src="{{asset('pages/js/pages.frontend.js')}}"></script>
-<!-- END PAGES LIB -->
+<script type="text/javascript" src="{{asset('js/app.js')}}"></script>
+@yield('scripts')
 </body>
 </html>
