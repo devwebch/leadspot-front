@@ -27,5 +27,11 @@ return [
     'find_clients_need'         => 'Find clients that need you',
     'find_clients_need_msg'     => 'LeadSpot helps you finding great potential clients by analyzing their current presence on the internet, stop wasting time researching manually your leads, meet them with accurate, relevant data.',
     'start_finding'             => 'Start finding clients today!',
-
+    'exit_popup'    => [
+        'title'                     => 'Wait up!',
+        'subtitle'                  => "Start looking for new leads<br><strong>for free!</strong>",
+        'strings'                   => 'No strings attached and no credit card required.',
+        'create_account_seconds'    => 'Create my free account in a few seconds.',
+        'register_now'              => 'Register now',
+    ]
 ];

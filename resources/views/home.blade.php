@@ -234,20 +234,20 @@
             <!-- Your popup content -->
             <div class="col-left">
                 <div class="content">
-                    <h2 class="title">Wait up!</h2>
-                    <h4>Start looking for new leads<br><strong>for free!</strong></h4>
-                    <p class="m-t-30">No strings attached and no credit card required.</p>
-                    <p><a href="//go.leadspotapp.com/register">Create my free account in a few seconds.</a></p>
+                    <h2 class="title">{{trans('home.exit_popup.title')}}</h2>
+                    <h4>{!! trans('home.exit_popup.subtitle') !!}</h4>
+                    <p class="m-t-30">{{trans('home.exit_popup.strings')}}</p>
+                    <p><a href="//go.leadspotapp.com/register">{{trans('home.exit_popup.create_account_seconds')}}</a></p>
                 </div>
             </div>
             <div class="col-right">
                 <div class="content">
                     
                     <div class="text-center m-t-10">
-                        <img src="images/optimplaces.png" alt="">
+                        <img src="images/optimplaces.png" alt="LeadSpot free account">
                     </div>
                     <div class="text-center m-t-40">
-                        <a href="//go.leadspotapp.com/register" class="btn btn-danger btn-block btn-lg">Register now</a>
+                        <a href="//go.leadspotapp.com/register" class="btn btn-danger btn-block btn-lg">{{trans('home.exit_popup.register_now')}}</a>
                     </div>
                 </div>
             </div>

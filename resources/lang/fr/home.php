@@ -27,5 +27,11 @@ return [
     'find_clients_need'         => 'Trouvez des clients qui ont besoin de vous',
     'find_clients_need_msg'     => 'LeadSpot vous aide à trouver des clients potentiels qualitatifs en analysant leurs présence web actuelle, ne perdez plus de temps en cherchant manuellement vos prospects, allez à leur rencontre avec des données concrêtes et pertinentes.',
     'start_finding'             => 'Trouvez des clients dès aujourd\'hui !',
-
+    'exit_popup'    => [
+        'title'                     => 'Attendez!',
+        'subtitle'                  => "Recherchez dès maintenant des prospects <strong>gratuitement&nbsp;!</strong>",
+        'strings'                   => 'Aucune obligation d\'achat, pas de carte de crédit requise.',
+        'create_account_seconds'    => 'Créer mon compte gratuit en quelques secondes.',
+        'register_now'              => 'Inscription',
+    ]
 ];
