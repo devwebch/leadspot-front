@@ -8,10 +8,23 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+
+.jumbotron .container h1,
+.jumbotron .container .h1{
+  font-size: 34px;
+  line-height: 45px;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .jumbotron .btn-discover {
     margin-right: 20px;
+  }
+
+  .jumbotron .container h1,
+  .jumbotron .container .h1{
+    font-size: 44px;
+    line-height: 55px;
   }
 }
 
