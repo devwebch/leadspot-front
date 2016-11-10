@@ -3,6 +3,8 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
     <title>
         @if(View::hasSection('title'))
             @yield('title') - LeadSpot
@@ -10,14 +12,24 @@
             LeadSpot - {{trans('app.metas.title')}}
         @endif
     </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Android navbar color -->
+    <meta name="theme-color" content="#b94a67">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#b94a67">
+    <!-- IOS -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#b94a67">
+
+    <link rel="canonical" href="{{url()->full()}}" />
+    <meta content="LeadSpot" name="author" />
+    <link rel="publisher" href="https://plus.google.com/+leadspotapp"/>
+
+    <meta name="robots" content="index, follow">
     <link rel="apple-touch-icon" href="{{asset('images/icn_152x152.png')}}">
     <link rel="icon" type="image/x-icon" href="{{asset('images/icn_152x152.png')}}" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta content="@yield('description')" name="description" />
-    <meta content="LeadSpot" name="author" />
     <!-- BEGIN PLUGINS -->
     <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css" />
@@ -27,6 +39,7 @@
     <!-- BEGIN PAGES CSS -->
     <link class="main-stylesheet" href="{{asset('pages/css/pages.css')}}" rel="stylesheet" type="text/css" />
     <link class="main-stylesheet" href="{{asset('pages/css/pages-icons.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('css/slick-modal-min.css')}}" rel="stylesheet" type="text/css" />
     <!-- BEGIN PAGES CSS -->
 
     <script type="application/ld+json">
@@ -88,25 +101,16 @@
     </div>
 </section>
 <!-- END FOOTER -->
-<!-- BEGIN VENDOR JS -->
-<script src="{{asset('plugins/pace/pace.min.js')}}" type="text/javascript"></script>
-<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{asset('plugins/jquery/jquery-1.11.1.min.js')}}"><\/script>')</script>
-<script type="text/javascript" src="{{asset('plugins/bootstrap/js/bootstrap.min.js')}}"></script>
+
+<script type="text/javascript" src="{{asset('plugins/pace/pace.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/velocity/velocity.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/velocity/velocity.ui.js')}}"></script>
 <script type="text/javascript" src="{{asset('plugins/jquery-appear/jquery.appear.js')}}"></script>
-<!-- END VENDOR JS -->
-<!-- BEGIN PAGES FRONTEND LIB -->
 <script type="text/javascript" src="{{asset('pages/js/pages.frontend.js')}}"></script>
-<!-- END PAGES LIB -->
-<!-- Twitter single-event website tag code -->
-<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
-<script type="text/javascript">twttr.conversion.trackPid('nvnzf', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
-<noscript>
-    <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nvnzf&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
-    <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nvnzf&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
-</noscript>
-<!-- End Twitter single-event website tag code -->
+<script type="text/javascript" src="{{asset('js/app.js')}}"></script>
+@yield('scripts')
 </body>
 </html>

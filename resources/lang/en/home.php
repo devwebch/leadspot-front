@@ -6,7 +6,7 @@ return [
     'jumbotron_title'           => 'Rethink your leads generation process',
     'jumbotron_sub'             => '& find local business opportunities',
     'discover_leadspot'         => 'Discover LeadSpot',
-    'register_now'              => 'Register now',
+    'register_now'              => 'Register now for free',
     'register_leadspot'         => 'Register on LeadSpot',
     'find_clients'              => 'Find clients',
     'struggle_clients'          => 'Are you struggling to find<br>new clients?',

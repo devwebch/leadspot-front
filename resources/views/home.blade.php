@@ -71,10 +71,10 @@
                 reopenClass: 'openSlickModal-1',
                 // Additional events
                 onSlickLoad: function() {
-
+                    ga('send', 'event', 'Popup', 'open', 'Exit popup');
                 },
                 onSlickClose: function() {
-
+                    ga('send', 'event', 'Popup', 'close', 'Exit popup');
                 }
             });
 
@@ -96,7 +96,7 @@
                             </div>
                             <div class="col-xs-8 col-xs-push-2 text-center m-t-20">
                                 <a href="#launch" title="Discover LeadSpot" class="btn btn-danger btn-discover btn-lg xs-m-b-20">{{trans('home.discover_leadspot')}}</a>
-                                <a href="https://go.leadspotapp.com/register" title="{{trans('home.register_leadspot')}}" target="_blank" class="btn btn-bordered btn-white btn-lg">{{trans('home.register_now')}}</a>
+                                <a href="https://go.leadspotapp.com/register" title="{{trans('home.register_leadspot')}}" target="_blank" class="btn btn-bordered btn-white btn-lg" onclick="ga('send', 'event', 'Registration', 'click', 'CTA Jumbotron')">{{trans('home.register_now')}}</a>
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,7 @@
                     <div class="text-center">
                         <h1 class="text-white col-sm-12">{{trans('home.start_now_no_charge')}}</h1>
                         <p class="text-white col-sm-12 p-b-5">{{trans('home.start_now_no_charge_msg')}}</p>
-                        <a href="https://go.leadspotapp.com/register" class="btn btn-lg btn-danger btn-cons btn-rounded m-t-20 bold">{{trans('home.create_free_account')}}</a>
+                        <a href="https://go.leadspotapp.com/register" class="btn btn-lg btn-danger btn-cons btn-rounded m-t-20 bold" onclick="ga('send', 'event', 'Registration', 'click', 'CTA 1')">{{trans('home.create_free_account')}}</a>
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@
     <!-- START CONTENT SECTION -->
     <section class="p-b-15 p-t-10 bg-master-darker text-center text-white">
         <h3 class="inline text-white xs-m-b-20">{{trans('home.start_finding')}}</h3>
-        <a href="https://go.leadspotapp.com/register" title="{{trans('home.create_free_account')}}" class="btn btn-cons btn-bordered m-l-20 m-b-10 xs-no-margin">{{trans('home.create_free_account')}}</a>
+        <a href="https://go.leadspotapp.com/register" title="{{trans('home.create_free_account')}}" class="btn btn-cons btn-bordered m-l-20 m-b-10 xs-no-margin" onclick="ga('send', 'event', 'Registration', 'click', 'CTA 2')">{{trans('home.create_free_account')}}</a>
     </section>
     <!-- END CONTENT SECTION -->
 
@@ -247,7 +247,7 @@
                         <img src="images/optimplaces.png" alt="LeadSpot free account">
                     </div>
                     <div class="text-center m-t-40">
-                        <a href="//go.leadspotapp.com/register" class="btn btn-danger btn-block btn-lg">{{trans('home.exit_popup.register_now')}}</a>
+                        <a href="//go.leadspotapp.com/register" class="btn btn-danger btn-block btn-lg" onclick="ga('send', 'event', 'Registration', 'click', 'CTA 3')">{{trans('home.exit_popup.register_now')}}</a>
                     </div>
                 </div>
             </div>

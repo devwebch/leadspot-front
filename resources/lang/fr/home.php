@@ -6,7 +6,7 @@ return [
     'jumbotron_title'           => 'Repensez votre processus de génération de prospects',
     'jumbotron_sub'             => '& trouvez des opportunités locales',
     'discover_leadspot'         => 'Découvrir LeadSpot',
-    'register_now'              => 'Créer un compte',
+    'register_now'              => 'Créer un compte gratuit',
     'register_leadspot'         => 'Créer un compte LeadSpot',
     'find_clients'              => 'Trouvez des clients',
     'struggle_clients'          => 'Avez-vous du mal à trouver<br>de nouveaux clients ?',
