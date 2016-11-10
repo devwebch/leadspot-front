@@ -141,7 +141,7 @@
         </div>
     </section>
     <!-- BEGIN CONTENT SECTION -->
-    <section class="bg-master-lightest p-b-85 p-t-75 no-overflow">
+    <section class="bg-master-lightest p-t-75 no-overflow">
         <div class="container">
             <div class="md-p-l-20 md-p-r-20 xs-no-padding">
                 <h5 class="block-title hint-text no-margin">{{trans('home.search')}}</h5>
@@ -152,8 +152,8 @@
                         <p class="hint-text font-arial small-text col-md-8 no-padding">{{trans('home.find_businesses_msg_2')}}</p>
                     </div>
                     <div class="col-sm-7 no-padding xs-p-l-15 xs-p-r-15">
-                        <div class="content-mask-md">
-                            <div class="device_morph pull-center-inner" id="iphone01" data-pages="float" data-max-top-translate="40" data-max-bottom-translate="300" data-speed="-0.1" data-delay="1000" data-curve="ease">
+                        <div>
+                            <div >
                                 <img alt="Find local businesses on LeadSpot" class="xs-image-responsive-height image-responsive-width"
                                      src="{{asset('images/map_example.png')}}">
                             </div>
@@ -180,7 +180,7 @@
     </section>
     <!-- END CONTENT SECTION -->
     <!-- BEGIN CONTENT SECTION -->
-    <section class="bg-master-lightest p-b-85 p-t-75 no-overflow">
+    <section class="bg-master-lightest p-t-75 no-overflow">
         <div class="container">
             <div class="md-p-l-20 md-p-r-20 xs-no-padding">
                 <h5 class="block-title hint-text no-margin">{{trans('home.go_further')}}</h5>
@@ -190,12 +190,8 @@
                         <p class="m-b-20">{{trans('home.manage_clients_msg')}}</p>
                     </div>
                     <div class="col-sm-7 no-padding xs-p-l-15 xs-p-r-15">
-                        <div class="content-mask-md">
-                            <div class="device_morph pull-center-inner" id="iphone01" data-pages="float" data-max-top-translate="40" data-max-bottom-translate="300" data-speed="-0.1" data-delay="1000" data-curve="ease">
-                                <img alt="Manage clients with LeadSpot" class="xs-image-responsive-height image-responsive-width"
-                                     src="{{asset('images/list_example.png')}}">
-                            </div>
-                        </div>
+                        <img alt="Manage clients with LeadSpot" class="xs-image-responsive-height image-responsive-width"
+                             src="{{asset('images/list_example.png')}}">
                     </div>
                 </div>
             </div>
