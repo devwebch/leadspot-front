@@ -24,12 +24,25 @@
     <meta content="LeadSpot" name="author" />
     <link rel="publisher" href="https://plus.google.com/+leadspotapp"/>
 
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noodp"/>
     <link rel="apple-touch-icon" href="{{asset('images/icn_152x152.png')}}">
     <link rel="icon" type="image/x-icon" href="{{asset('images/icn_152x152.png')}}" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <meta content="@yield('description')" name="description" />
+
+    <meta property="og:locale" content="{{App::getLocale()}}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="LeadSpot"/>
+    <meta property="og:description" content="@yield('description')"/>
+    <meta property="og:url" content="{{url()->full()}}"/>
+    <meta property="og:site_name" content="LeadSpot"/>
+
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:description" content="@yield('description')"/>
+    <meta name="twitter:title" content="LeadSpot - {{trans('app.metas.title')}}"/>
+    <meta name="twitter:site" content="@leadspotapp"/>
+
     <!-- BEGIN PLUGINS -->
     <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css" />
