@@ -155,7 +155,7 @@
                         <div>
                             <div >
                                 <img alt="Find local businesses on LeadSpot" class="xs-image-responsive-height image-responsive-width"
-                                     src="{{asset('images/map_example.png')}}">
+                                     src="{{asset('images/map_example.jpg')}}">
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                     </div>
                     <div class="col-sm-7 no-padding xs-p-l-15 xs-p-r-15">
                         <img alt="Manage clients with LeadSpot" class="xs-image-responsive-height image-responsive-width"
-                             src="{{asset('images/list_example.png')}}">
+                             src="{{asset('images/list_example.jpg')}}">
                     </div>
                 </div>
             </div>
