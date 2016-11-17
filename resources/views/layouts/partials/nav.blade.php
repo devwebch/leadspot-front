@@ -4,7 +4,8 @@
         <!-- .header-inner Allows to vertically Align elements to the Center-->
         <div class="header-inner">
             <!-- BEGIN LOGO -->
-            <a href="/">
+            <h1 class="sr-only">LeadSpot</h1>
+            <a href="/" title="LeadSpot">
                 <img src="{{asset('images/logo-leadspot-negative.png')}}" width="152" data-src-retina="{{asset('images/logo-leadspot-negative.png')}}" alt="LeadSpot">
             </a>
         </div>

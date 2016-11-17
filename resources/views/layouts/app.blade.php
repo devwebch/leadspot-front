@@ -94,7 +94,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <img alt="LeadSpot" class="logo inline m-r-50" src="{{asset('images/logo-leadspot.png')}}" width="100">
+                <img alt="LeadSpot" title="LeadSpot" class="logo inline m-r-50" src="{{asset('images/logo-leadspot.png')}}" width="100">
                 <div class="m-t-10 ">
                     <ul class="no-style fs-11 no-padding font-arial">
                         <li class="inline no-padding"><a class="hint-text text-master p-r-10 b-r b-grey" href="mailto:support@leadspotapp.com">{{trans('footer.nav.support')}}</a></li>
