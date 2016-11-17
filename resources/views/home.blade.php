@@ -9,8 +9,8 @@
 @endsection
 
 @section('scripts')
-    <script type="text/javascript" src="{{asset('js/jquery.slick-modal.min.js')}}"></script>
-    <script type="text/javascript">
+    <script type="text/javascript" src="{{asset('js/jquery.slick-modal.min.js')}}" async defer></script>
+    <script type="text/javascript" async defer>
         jQuery(document).ready(function($) {
             // Modal 1
             $('#popup-1').slickModals({
