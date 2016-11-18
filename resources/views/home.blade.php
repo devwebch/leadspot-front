@@ -120,12 +120,12 @@
         <div class="text-center">
             <img class="demo-handboofk lazy loaded loaded xs-image-responsive-height image-responsive-width"
                  data-pages="float"
-                 src="{{asset('images/app_showcase.png')}}" alt=""
+                 src="{{asset('images/app_showcase.png')}}" alt="LeadSpot application" title="LeadSpot application"
                  data-max-top-translate="40"
                  data-max-bottom-translate="300"
                  data-speed="-0.1" data-delay="1000"
                  data-curve="ease"
-                 style="transition: transform 1s ease; transform: translateY(39.5776px); bottom: -100px; position:relative;" alt="LeadSpot application" title="LeadSpot application">
+                 style="transition: transform 1s ease; transform: translateY(39.5776px); bottom: -100px; position:relative;">
         </div>
     </section>
     <!-- END SECTION -->
@@ -144,7 +144,7 @@
     <section class="bg-master-lightest p-t-75 no-overflow">
         <div class="container">
             <div class="md-p-l-20 md-p-r-20 xs-no-padding">
-                <h5 class="block-title hint-text no-margin">{{trans('home.search')}}</h5>
+                <h4 class="block-title hint-text no-margin">{{trans('home.search')}}</h4>
                 <div class="row">
                     <div class="col-sm-5">
                         <h3 class="m-t-5 m-b-20">{{trans('home.find_businesses')}}</h3>
@@ -183,7 +183,7 @@
     <section class="bg-master-lightest p-t-75 no-overflow">
         <div class="container">
             <div class="md-p-l-20 md-p-r-20 xs-no-padding">
-                <h5 class="block-title hint-text no-margin">{{trans('home.go_further')}}</h5>
+                <h4 class="block-title hint-text no-margin">{{trans('home.go_further')}}</h4>
                 <div class="row">
                     <div class="col-sm-5">
                         <h3 class="m-t-5 m-b-20">{{trans('home.manage_clients')}}</h3>
@@ -202,7 +202,7 @@
     <section class="bg-master-lightest p-b-60 p-t-60">
         <div class="container">
             <div class="md-p-l-20 md-p-r-20 xs-no-padding">
-                <h5 class="block-title hint-text no-margin">{{trans('home.be_efficient')}}</h5>
+                <h4 class="block-title hint-text no-margin">{{trans('home.be_efficient')}}</h4>
                 <div class="row">
                     <div class="col-sm-5 col-md-4">
                         <h3 class="m-t-5">{{trans('home.find_clients_need')}}</h3>

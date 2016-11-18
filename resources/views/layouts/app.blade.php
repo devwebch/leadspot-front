@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{App::getLocale()}}">
 <head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="utf-8" />
@@ -66,6 +66,9 @@
         "https://twitter.com/leadspotapp"
       ]
     }
+    </script>
+    <script>
+        ga('set', 'anonymizeIp', true);
     </script>
 
     @yield('styles')
