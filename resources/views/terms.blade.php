@@ -205,8 +205,7 @@
 
                     <p><strong>SECTION 10 - PERSONAL INFORMATION</strong></p>
 
-                    <p>Your submission of personal information through the store is governed by our Privacy Policy. To view
-                    our Privacy Policy.</p>
+                    <p>Your submission of personal information through the store is governed by our Privacy Policy. <a href="/privacy-policy" title="LeadSpot privacy policy">To view our Privacy Policy</a>.</p>
 
 
                     <p><strong>SECTION 11 - ERRORS, INACCURACIES AND OMISSIONS</strong></p>
