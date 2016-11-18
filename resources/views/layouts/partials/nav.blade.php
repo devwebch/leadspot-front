@@ -6,7 +6,7 @@
             <!-- BEGIN LOGO -->
             <h1 class="sr-only">LeadSpot</h1>
             <a href="/" title="LeadSpot">
-                <img src="{{asset('images/logo-leadspot-negative.png')}}" width="152" data-src-retina="{{asset('images/logo-leadspot-negative.png')}}" alt="LeadSpot">
+                <img src="{{asset('images/logo-leadspot-negative.png')}}" width="152" data-src-retina="{{asset('images/logo-leadspot-negative.png')}}" alt="LeadSpot" title="LeadSpot">
             </a>
         </div>
     </div>

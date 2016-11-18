@@ -1,4 +1,5 @@
 User-agent: *
 Crawl-delay: 10
+Sitemap: https://leadspotapp.com/sitemap.xml
 Disallow: /cdn-cgi/
 Disallow: /cgi-bin/

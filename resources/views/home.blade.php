@@ -91,7 +91,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-8 col-sm-push-2">
-                                <h1 class="light text-white text-center">{!! trans('home.jumbotron_title') !!}</h1>
+                                <h2 class="light text-white text-center" style="font-size: 3.5em; line-height: 1.5em;">{!! trans('home.jumbotron_title') !!}</h2>
                                 <h3 class="light text-white text-center">{{trans('home.jumbotron_sub')}}</h3>
                             </div>
                             <div class="col-xs-8 col-xs-push-2 text-center m-t-20">
@@ -111,11 +111,11 @@
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
                     <h6 class="block-title m-b-0 ">{{trans('home.find_clients')}}</h6>
-                    <h1 class="m-t-5">{!! trans('home.struggle_clients') !!}</h1>
+                    <h3 class="m-t-5">{!! trans('home.struggle_clients') !!}</h3>
                     <p class="m-t-20">{!! trans('home.struggle_clients_msg') !!}</p>
                 </div>
             </div>
-            <img class="m-t-30" src="{{asset('images/arrow_down_2.png')}}" alt="">
+            <img class="m-t-30" src="{{asset('images/arrow_down_2.png')}}" alt="more">
         </div>
         <div class="text-center">
             <img class="demo-handboofk lazy loaded loaded xs-image-responsive-height image-responsive-width"
@@ -125,7 +125,7 @@
                  data-max-bottom-translate="300"
                  data-speed="-0.1" data-delay="1000"
                  data-curve="ease"
-                 style="transition: transform 1s ease; transform: translateY(39.5776px); bottom: -100px; position:relative;">
+                 style="transition: transform 1s ease; transform: translateY(39.5776px); bottom: -100px; position:relative;" alt="LeadSpot application" title="LeadSpot application">
         </div>
     </section>
     <!-- END SECTION -->
@@ -147,14 +147,14 @@
                 <h5 class="block-title hint-text no-margin">{{trans('home.search')}}</h5>
                 <div class="row">
                     <div class="col-sm-5">
-                        <h1 class="m-t-5 m-b-20">{{trans('home.find_businesses')}}</h1>
+                        <h3 class="m-t-5 m-b-20">{{trans('home.find_businesses')}}</h3>
                         <p class="m-b-20">{{trans('home.find_businesses_msg')}}</p>
                         <p class="hint-text font-arial small-text col-md-8 no-padding">{{trans('home.find_businesses_msg_2')}}</p>
                     </div>
                     <div class="col-sm-7 no-padding xs-p-l-15 xs-p-r-15">
                         <div>
                             <div >
-                                <img alt="Find local businesses on LeadSpot" class="xs-image-responsive-height image-responsive-width"
+                                <img alt="Find local businesses on LeadSpot" title="Find local businesses on LeadSpot" class="xs-image-responsive-height image-responsive-width"
                                      src="{{asset('images/map_example.jpg')}}">
                             </div>
                         </div>
@@ -170,7 +170,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="text-center">
-                        <h1 class="text-white col-sm-12">{{trans('home.start_now_no_charge')}}</h1>
+                        <h3 class="text-white col-sm-12">{{trans('home.start_now_no_charge')}}</h3>
                         <p class="text-white col-sm-12 p-b-5">{{trans('home.start_now_no_charge_msg')}}</p>
                         <a href="https://go.leadspotapp.com/register" class="btn btn-lg btn-danger btn-cons btn-rounded m-t-20 bold" onclick="ga('send', 'event', 'Registration', 'click', 'CTA 1')">{{trans('home.create_free_account')}}</a>
                     </div>
@@ -186,11 +186,11 @@
                 <h5 class="block-title hint-text no-margin">{{trans('home.go_further')}}</h5>
                 <div class="row">
                     <div class="col-sm-5">
-                        <h1 class="m-t-5 m-b-20">{{trans('home.manage_clients')}}</h1>
+                        <h3 class="m-t-5 m-b-20">{{trans('home.manage_clients')}}</h3>
                         <p class="m-b-20">{{trans('home.manage_clients_msg')}}</p>
                     </div>
                     <div class="col-sm-7 no-padding xs-p-l-15 xs-p-r-15">
-                        <img alt="Manage clients with LeadSpot" class="xs-image-responsive-height image-responsive-width"
+                        <img alt="Manage clients with LeadSpot" title="Manage clients with LeadSpot" class="xs-image-responsive-height image-responsive-width"
                              src="{{asset('images/list_example.jpg')}}">
                     </div>
                 </div>
@@ -205,7 +205,7 @@
                 <h5 class="block-title hint-text no-margin">{{trans('home.be_efficient')}}</h5>
                 <div class="row">
                     <div class="col-sm-5 col-md-4">
-                        <h1 class="m-t-5">{{trans('home.find_clients_need')}}</h1>
+                        <h3 class="m-t-5">{{trans('home.find_clients_need')}}</h3>
                     </div>
                     <div class="col-sm-7 col-md-8 no-padding xs-p-l-15 xs-p-r-15">
                         <div class="p-t-20 p-l-35 md-p-l-5 md-p-t-15">
