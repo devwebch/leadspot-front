@@ -4,6 +4,8 @@
 
 @section('title', 'Privacy policy')
 
+@section('description', trans('privacy.metas.description'))
+
 @section('header')
     @include('layouts.partials.header-solid')
 @endsection
