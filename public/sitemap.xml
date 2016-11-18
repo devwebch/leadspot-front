@@ -25,4 +25,9 @@
         <changefreq>weekly</changefreq>
         <priority>0.50</priority>
     </url>
+    <url>
+        <loc>https://leadspotapp.com/privacy-policy</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.50</priority>
+    </url>
 </urlset>
