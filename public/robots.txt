@@ -1,2 +1,4 @@
 User-agent: *
 Crawl-delay: 10
+Disallow: /cdn-cgi/
+Disallow: /cgi-bin/
