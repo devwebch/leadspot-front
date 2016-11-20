@@ -91,8 +91,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-8 col-sm-push-2">
-                                <h2 class="light text-white text-center" style="font-size: 3.5em; line-height: 1.5em;">{!! trans('home.jumbotron_title') !!}</h2>
-                                <h3 class="light text-white text-center">{{trans('home.jumbotron_sub')}}</h3>
+                                <h2 class="light text-white text-center" style="font-size: 2.5rem; line-height: 1.5em;">{!! trans('home.jumbotron_title') !!}</h2>
+                                <h3 class="light text-white text-center">{!! trans('home.jumbotron_sub') !!}</h3>
                             </div>
                             <div class="col-xs-8 col-xs-push-2 text-center m-t-20">
                                 <a href="#launch" title="Discover LeadSpot" class="btn btn-danger btn-discover btn-lg xs-m-b-20">{{trans('home.discover_leadspot')}}</a>

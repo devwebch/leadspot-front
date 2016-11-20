@@ -3,8 +3,8 @@ return [
     'metas'     => [
         'description'           => 'LeadSpot est une application de génération de prospects, analysez et recevez des informations pertinentes à propos d\'entreprises locales.',
     ],
-    'jumbotron_title'           => 'Repensez votre processus de génération de prospects',
-    'jumbotron_sub'             => '& trouvez des opportunités locales',
+    'jumbotron_title'           => 'Trouvez des leads de qualité',
+    'jumbotron_sub'             => 'Découvrez des <strong>sociétés locales</strong>, analysez <strong>leurs besoins</strong> et contactez <strong>les bonnes personnes</strong>',
     'discover_leadspot'         => 'Découvrir LeadSpot',
     'register_now'              => 'Créer un compte gratuit',
     'register_leadspot'         => 'Créer un compte LeadSpot',
