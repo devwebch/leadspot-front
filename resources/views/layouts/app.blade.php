@@ -43,17 +43,7 @@
     <meta name="twitter:title" content="LeadSpot - {{trans('app.metas.title')}}"/>
     <meta name="twitter:site" content="@leadspotapp"/>
 
-    <!-- BEGIN PLUGINS -->
-    <link href="{{asset('plugins/pace/pace-theme-flash.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('plugins/font-awesome/css/font-awesome.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('plugins/swiper/css/swiper.css')}}" rel="stylesheet" type="text/css" media="screen" />
-    <!-- END PLUGINS -->
-    <!-- BEGIN PAGES CSS -->
-    <link class="main-stylesheet" href="{{asset('pages/css/pages.css')}}" rel="stylesheet" type="text/css" />
-    <link class="main-stylesheet" href="{{asset('pages/css/pages-icons.css')}}" rel="stylesheet" type="text/css" />
-    <link href="{{asset('css/slick-modal-min.css')}}" rel="stylesheet" type="text/css" />
-    <!-- BEGIN PAGES CSS -->
+    <link href="{{asset('css/all.css')}}" rel="stylesheet" type="text/css" />
 
     <script type="application/ld+json">
     {
@@ -67,9 +57,6 @@
       ]
     }
     </script>
-    <script>
-        ga('set', 'anonymizeIp', true);
-    </script>
 
     @yield('styles')
 </head>
@@ -81,6 +68,7 @@
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+    ga('set', 'anonymizeIp', true);
     ga('create', 'UA-10894705-3', 'auto');
     ga('send', 'pageview');
 
@@ -113,15 +101,12 @@
 </section>
 <!-- END FOOTER -->
 
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script>window.jQuery || document.write('<script src="{{asset('plugins/jquery/jquery-1.11.1.min.js')}}"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" async defer></script>
+<script>window.jQuery || document.write('<script src="{{asset('js/jquery-3.1.1.min.js')}}" async defer><\/script>')</script>
 
-<script type="text/javascript" src="{{asset('plugins/pace/pace.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('plugins/velocity/velocity.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('plugins/velocity/velocity.ui.js')}}"></script>
-<script type="text/javascript" src="{{asset('plugins/jquery-appear/jquery.appear.js')}}"></script>
-<script type="text/javascript" src="{{asset('pages/js/pages.frontend.js')}}"></script>
-<script type="text/javascript" src="{{asset('js/app.js')}}"></script>
+<script type="text/javascript" src="{{asset('plugins/pace/pace.min.js')}}" async defer></script>
+<script type="text/javascript" src="{{asset('js/all.js')}}" async defer></script>
+<script type="text/javascript" src="{{asset('js/app.js')}}" async defer></script>
 @yield('scripts')
 </body>
 </html>
