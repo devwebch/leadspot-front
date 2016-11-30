@@ -1,7 +1,7 @@
 const elixir = require('laravel-elixir');
 const imagemin = require('gulp-imagemin');
 
-require('laravel-elixir-vue');
+//require('laravel-elixir-vue');
 
 /*
  |--------------------------------------------------------------------------
@@ -14,13 +14,16 @@ require('laravel-elixir-vue');
  |
  */
 
-elixir(mix => {
+elixir(function (mix) {
     mix.sass('app.scss')
-       .webpack('app.js');
+        .webpack('app.js')
+        .styles(['../js/plugins/pace/pace-theme-flash.css', 'app.css', '../js/plugins/font-awesome/css/font-awesome.css', 'pages/css/pages.css', 'pages/css/pages-icons.css', 'slick-modal-min.css'])
+        .scripts(['plugins/jquery-appear/jquery.appear.js', 'plugins/velocity/velocity.min.js', 'plugins/velocity/velocity.ui.js', '../pages/js/pages.frontend.js']);
 });
 
-gulp.task('images', () =>
-gulp.src('public/images/*')
-    .pipe(imagemin())
-    .pipe(gulp.dest('public/images/dist'))
-);
+gulp.task('images', function() {
+    var wiredep = require('wiredep').stream;
+    return gulp.src('public/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('public/images/dist'));
+});
