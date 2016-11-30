@@ -101,10 +101,11 @@
 </section>
 <!-- END FOOTER -->
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" async defer></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{asset('js/jquery-3.1.1.min.js')}}" async defer><\/script>')</script>
 
-<script type="text/javascript" src="{{asset('plugins/pace/pace.min.js')}}" async defer></script>
+<script type="text/javascript" src="{{asset('js/pace.min.js')}}" async defer></script>
+<script type="text/javascript" src="{{asset('js/modernizr.custom.js')}}" async defer></script>
 <script type="text/javascript" src="{{asset('js/all.js')}}" async defer></script>
 <script type="text/javascript" src="{{asset('js/app.js')}}" async defer></script>
 @yield('scripts')

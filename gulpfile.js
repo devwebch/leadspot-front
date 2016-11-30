@@ -17,8 +17,20 @@ const imagemin = require('gulp-imagemin');
 elixir(function (mix) {
     mix.sass('app.scss')
         .webpack('app.js')
-        .styles(['../js/plugins/pace/pace-theme-flash.css', 'app.css', '../js/plugins/font-awesome/css/font-awesome.css', 'pages/css/pages.css', 'pages/css/pages-icons.css', 'slick-modal-min.css'])
-        .scripts(['plugins/jquery-appear/jquery.appear.js', 'plugins/velocity/velocity.min.js', 'plugins/velocity/velocity.ui.js', '../pages/js/pages.frontend.js']);
+        .styles([
+            '../js/plugins/pace/pace-theme-flash.css',
+            'app.css',
+            '../js/plugins/font-awesome/css/font-awesome.css',
+            'pages/css/pages.css',
+            'pages/css/pages-icons.css',
+            'slick-modal-min.css'
+        ])
+        .scripts([
+            'plugins/jquery-appear/jquery.appear.js',
+            'plugins/velocity/velocity.min.js',
+            'plugins/velocity/velocity.ui.js',
+            'pages.frontend.js'
+        ]);
 });
 
 gulp.task('images', function() {
