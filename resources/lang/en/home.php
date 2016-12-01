@@ -35,6 +35,7 @@ return [
         'register_now'              => 'Register now',
     ],
     'features_point'            => [
+        'title'               => 'Key features',
         'point_1_title'       => 'Local searches',
         'point_1_content'     => 'Search for local prospects among local businesses.',
         'point_2_title'       => 'Websites analysis',

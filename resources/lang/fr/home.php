@@ -35,6 +35,7 @@ return [
         'register_now'              => 'Inscription',
     ],
     'features_point'            => [
+        'title'               => 'Fonctionnalités clés',
         'point_1_title'       => 'Recherches localisées',
         'point_1_content'     => 'Recherchez des prospects parmis des entreprises locales.',
         'point_2_title'       => 'Analyses sites web',

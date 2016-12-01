@@ -143,7 +143,7 @@
     <section>
         <div class="container">
             <div class="col-md-12 m-b-20 text-center">
-                <h2 class="light m-t-5 m-b-20">{{trans('home.head_start')}}</h2>
+                <h2 class="light m-t-5 m-b-20">{{trans('home.features_point.title')}}</h2>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
                 <img src="images/icn/optimplaces.svg" alt="{{trans('home.features_point.point_1_title')}}">
