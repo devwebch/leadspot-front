@@ -5,7 +5,7 @@
         <div class="header-inner">
             <!-- BEGIN LOGO -->
             <h1 class="sr-only">LeadSpot</h1>
-            <a href="/" title="LeadSpot">
+            <a href="{{ LaravelLocalization::getLocalizedURL(null, '/') }}" title="LeadSpot">
                 <img src="{{asset('images/logo-leadspot-negative.png')}}" width="152" data-src-retina="{{asset('images/logo-leadspot-negative.png')}}" alt="LeadSpot" title="LeadSpot">
             </a>
         </div>
@@ -34,13 +34,13 @@
         <div class="header-inner">
             <ul class="menu">
                 <li>
-                    <a href="/" data-text="Home" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>" title="{{trans('nav.home')}}">{{trans('nav.home')}}</a>
+                    <a href="{{ LaravelLocalization::getLocalizedURL(null, '/') }}" data-text="Home" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>" title="{{trans('nav.home')}}">{{trans('nav.home')}}</a>
                 </li>
                 <li>
-                    <a href="/pricing" data-text="Pricing" class="<?php echo (Route::current()->uri() == 'pricing') ? 'active' : ''; ?>" title="{{trans('nav.pricing')}}">{{trans('nav.pricing')}}</a>
+                    <a href="{{ LaravelLocalization::getLocalizedURL(null, 'pricing') }}" data-text="Pricing" class="<?php echo (Route::current()->uri() == 'pricing') ? 'active' : ''; ?>" title="{{trans('nav.pricing')}}">{{trans('nav.pricing')}}</a>
                 </li>
                 <li>
-                    <a href="/contact" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>" title="{{trans('nav.contact')}}">{{trans('nav.contact')}}</a>
+                    <a href="{{ LaravelLocalization::getLocalizedURL(null, 'contact') }}" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>" title="{{trans('nav.contact')}}">{{trans('nav.contact')}}</a>
                 </li>
                 <li>
                     <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="{{trans('nav.contact')}}" title="{{trans('nav.contact')}}">{{trans('nav.dashboard')}}</a>
