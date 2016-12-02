@@ -89,7 +89,7 @@
                 <div class="m-t-10 ">
                     <ul class="no-style fs-11 no-padding font-arial">
                         <li class="inline no-padding"><a class="hint-text text-master p-r-10 b-r b-grey" href="mailto:support@leadspotapp.com">{{trans('footer.nav.support')}}</a></li>
-                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="{{ LaravelLocalization::getLocalizedURL(null, 'terms_and_conditions') }}" title="{{trans('footer.nav.terms')}}">{{trans('footer.nav.terms')}}</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="{{ LaravelLocalization::getLocalizedURL(null, 'terms-and-conditions') }}" title="{{trans('footer.nav.terms')}}">{{trans('footer.nav.terms')}}</a></li>
                     </ul>
                 </div>
             </div>
