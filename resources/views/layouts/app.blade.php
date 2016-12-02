@@ -21,6 +21,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#b94a67">
 
     <link rel="canonical" href="{{url()->full()}}/" />
+
+    @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+    <link rel="alternate" hreflang="{{$localeCode}}" href="{{LaravelLocalization::getLocalizedURL($localeCode) }}" />
+    @endforeach
+
     <meta content="LeadSpot" name="author" />
     <link rel="publisher" href="https://plus.google.com/+leadspotapp"/>
 
