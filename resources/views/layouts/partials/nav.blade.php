@@ -37,7 +37,7 @@
                     <a href="{{ LaravelLocalization::getLocalizedURL(null, '/') }}" data-text="Home" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>" title="{{trans('nav.home')}}">{{trans('nav.home')}}</a>
                 </li>
                 <li>
-                    <a href="{{ LaravelLocalization::getLocalizedURL(null, 'features') }}" data-text="Features" class="<?php echo (Route::current()->uri() == '/') ? 'active' : ''; ?>" title="{{trans('nav.features')}}">{{trans('nav.features')}}</a>
+                    <a href="{{ LaravelLocalization::getLocalizedURL(null, 'features') }}" data-text="Features" class="<?php echo (Route::current()->uri() == 'features') ? 'active' : ''; ?>" title="{{trans('nav.features')}}">{{trans('nav.features')}}</a>
                 </li>
                 <li>
                     <a href="{{ LaravelLocalization::getLocalizedURL(null, 'pricing') }}" data-text="Pricing" class="<?php echo (Route::current()->uri() == 'pricing') ? 'active' : ''; ?>" title="{{trans('nav.pricing')}}">{{trans('nav.pricing')}}</a>
