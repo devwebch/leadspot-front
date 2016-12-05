@@ -16,6 +16,12 @@
         <xhtml:link rel="alternate" hreflang="fr" href="https://leadspotapp.com/fr" />
     </url>
     <url>
+        <loc>https://leadspotapp.com/en/features</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://leadspotapp.com/fr/fonctionnalites" />
+    </url>
+    <url>
         <loc>https://leadspotapp.com/en/pricing</loc>
         <changefreq>weekly</changefreq>
         <priority>0.80</priority>
@@ -45,6 +51,12 @@
         <loc>https://leadspotapp.com/fr</loc>
         <priority>1.00</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://leadspotapp.com/en" />
+    </url>
+    <url>
+        <loc>https://leadspotapp.com/fr/fonctionnalites</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://leadspotapp.com/en/features" />
     </url>
     <url>
         <loc>https://leadspotapp.com/fr/prix</loc>

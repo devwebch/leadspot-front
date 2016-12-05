@@ -143,37 +143,37 @@
     <section>
         <div class="container">
             <div class="col-md-12 m-b-20 text-center">
-                <h2 class="light m-t-5 m-b-20">{{trans('home.features_point.title')}}</h2>
+                <h2 class="light m-t-5 m-b-20">{{trans('home.features_title')}}</h2>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-                <img src="images/icn/optimplaces.svg" alt="{{trans('home.features_point.point_1_title')}}">
-                <h6 class="block-title">{{trans('home.features_point.point_1_title')}}</h6>
-                <p class="m-b-30">{{trans('home.features_point.point_1_content')}}</p>
+                <img src="images/icn/optimplaces.svg" alt="{{trans('features.point_1_title')}}">
+                <h6 class="block-title">{{trans('features.point_1_title')}}</h6>
+                <p class="m-b-30">{{trans('features.point_1_content')}}</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-                <img src="images/icn/statsanticipate.svg" alt="{{trans('home.features_point.point_2_title')}}">
-                <h6 class="block-title">{{trans('home.features_point.point_2_title')}}</h6>
-                <p class="m-b-30">{{trans('home.features_point.point_2_content')}}</p>
+                <img src="images/icn/statsanticipate.svg" alt="{{trans('features.point_2_title')}}">
+                <h6 class="block-title">{{trans('features.point_2_title')}}</h6>
+                <p class="m-b-30">{{trans('features.point_2_content')}}</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-                <img src="images/icn/humantarget.svg" alt="{{trans('home.features_point.point_3_title')}}">
-                <h6 class="block-title">{{trans('home.features_point.point_3_title')}}</h6>
-                <p class="m-b-30">{{trans('home.features_point.point_3_content')}}</p>
+                <img src="images/icn/humantarget.svg" alt="{{trans('features.point_3_title')}}">
+                <h6 class="block-title">{{trans('features.point_3_title')}}</h6>
+                <p class="m-b-30">{{trans('features.point_3_content')}}</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-                <img src="images/icn/businessman.svg" alt="{{trans('home.features_point.point_4_title')}}">
-                <h6 class="block-title">{{trans('home.features_point.point_4_title')}}</h6>
-                <p class="m-b-30">{{trans('home.features_point.point_4_content')}}</p>
+                <img src="images/icn/businessman.svg" alt="{{trans('features.point_4_title')}}">
+                <h6 class="block-title">{{trans('features.point_4_title')}}</h6>
+                <p class="m-b-30">{{trans('features.point_4_content')}}</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-                <img src="images/icn/PDF.svg" alt="{{trans('home.features_point.point_5_title')}}">
-                <h6 class="block-title">{{trans('home.features_point.point_5_title')}}</h6>
-                <p class="m-b-30">{{trans('home.features_point.point_5_content')}}</p>
+                <img src="images/icn/PDF.svg" alt="{{trans('features.point_5_title')}}">
+                <h6 class="block-title">{{trans('features.point_5_title')}}</h6>
+                <p class="m-b-30">{{trans('features.point_5_content')}}</p>
             </div>
             <div class="col-sm-6 col-md-4 text-center">
-                <img src="images/icn/teammates.svg" alt="{{trans('home.features_point.point_6_title')}}">
-                <h6 class="block-title">{{trans('home.features_point.point_6_title')}}</h6>
-                <p class="m-b-30">{{trans('home.features_point.point_6_content')}}</p>
+                <img src="images/icn/teammates.svg" alt="{{trans('features.point_6_title')}}">
+                <h6 class="block-title">{{trans('features.point_6_title')}}</h6>
+                <p class="m-b-30">{{trans('features.point_6_content')}}</p>
             </div>
         </div>
     </section>

@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'features'                  => 'features',
     'pricing'                   => 'pricing',
     'contact'                   => 'contact',
     'contact_send'              => 'contact/send',

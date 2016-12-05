@@ -34,19 +34,5 @@ return [
         'create_account_seconds'    => 'Créer mon compte gratuit en quelques secondes.',
         'register_now'              => 'Inscription',
     ],
-    'features_point'            => [
-        'title'               => 'Fonctionnalités clés',
-        'point_1_title'       => 'Recherches localisées',
-        'point_1_content'     => 'Recherchez des prospects parmis des entreprises locales.',
-        'point_2_title'       => 'Analyses sites web',
-        'point_2_content'     => 'Analysez la présences web de vos futures clients.',
-        'point_3_title'       => 'Récupération de contacts',
-        'point_3_content'     => 'Obtenez automatiquement les informations de contacts de vos prospects.',
-        'point_4_title'       => 'Gestion de leads',
-        'point_4_content'     => 'Gérez vos contacts et suivez leur évolution durant la conversion.',
-        'point_5_title'       => 'Rapports PDF',
-        'point_5_content'     => 'Générez des rapports au format PDF et utilisez-les pour convaincre vos clients.',
-        'point_6_title'       => 'Équipes',
-        'point_6_content'     => 'Nos prestations sont adaptées aux freelancers et aux grandes équipes.',
-    ]
+    'features_title'            => 'Fonctionnalités clés',
 ];

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Investigating</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-3" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-5" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-7" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-9" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-11" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-13" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-15" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-17" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-19" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-21" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-23" d="M0,16 C0,24.837 7.163,32 16,32 L16,32 C24.836,32 32,24.837 32,16 L32,16 C32,7.163 24.836,0 16,0 L16,0 C7.163,0 0,7.163 0,16 L0,16 Z"></path>
+        <path id="path-25" d="M18.659,1.098 L0.979,18.778 L5.221,23.021 L22.902,5.341 C24.066,4.177 24.071,2.272 22.899,1.101 L22.899,1.101 C22.314,0.515 21.546,0.222 20.777,0.222 L20.777,0.222 C20.01,0.222 19.244,0.514 18.659,1.098 L18.659,1.098 Z"></path>
+        <path id="path-27" d="M0,5 L5,5 L5,0 L0,0 L0,5 Z"></path>
+        <path id="path-29" d="M0,8 L8,8 L8,0 L0,0 L0,8 Z"></path>
+        <path id="path-31" d="M0,6 L5.999,6 L5.999,0 L0,0 L0,6 Z"></path>
+        <path id="path-33" d="M6,3 L0,0 L6,3 Z"></path>
+        <path id="path-35" d="M3,6 L0.5,0.5 L3,6 Z"></path>
+        <path id="path-37" d="M0,6 L11,0 L0,6 Z"></path>
+        <path id="path-39" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-41" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-43" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-45" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-47" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-49" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-51" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-53" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-55" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-57" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-59" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-61" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-63" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-65" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-67" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-69" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-71" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-73" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-75" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-77" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-79" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-81" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-83" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-85" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-87" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-89" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-91" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-93" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-95" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-97" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-99" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-101" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-103" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-105" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-107" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-109" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-111" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-113" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-115" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-117" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-119" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-121" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-123" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-125" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+        <path id="path-127" d="M0,0.022 L938,0.022 L938,2242 L0,2242 L0,0.022 Z"></path>
+    </defs>
+    <g id="flat" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Tech_sliced" sketch:type="MSLayerGroup" transform="translate(-360.000000, -360.000000)"></g>
+        <g id="Page-1" sketch:type="MSLayerGroup" transform="translate(-378.000000, -369.000000)">
+            <g id="Group-148">
+                <mask id="mask-2" sketch:name="Clip 147" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-147"></g>
+            </g>
+            <g id="Group-186">
+                <mask id="mask-4" sketch:name="Clip 182" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-182"></g>
+            </g>
+            <g id="Group-197">
+                <mask id="mask-6" sketch:name="Clip 193" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Clip-193"></g>
+            </g>
+            <g id="Group-237"></g>
+            <g id="Group-272">
+                <mask id="mask-8" sketch:name="Clip 244" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="Clip-244"></g>
+            </g>
+            <g id="Group-289">
+                <mask id="mask-10" sketch:name="Clip 285" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <g id="Clip-285"></g>
+            </g>
+            <g id="Group-306">
+                <mask id="mask-12" sketch:name="Clip 302" fill="white">
+                    <use xlink:href="#path-11"></use>
+                </mask>
+                <g id="Clip-302"></g>
+            </g>
+            <g id="Group-363">
+                <mask id="mask-14" sketch:name="Clip 357" fill="white">
+                    <use xlink:href="#path-13"></use>
+                </mask>
+                <g id="Clip-357"></g>
+            </g>
+            <g id="Group-538">
+                <mask id="mask-16" sketch:name="Clip 537" fill="white">
+                    <use xlink:href="#path-15"></use>
+                </mask>
+                <g id="Clip-537"></g>
+            </g>
+            <g id="Group-546">
+                <mask id="mask-18" sketch:name="Clip 545" fill="white">
+                    <use xlink:href="#path-17"></use>
+                </mask>
+                <g id="Clip-545"></g>
+            </g>
+            <g id="Group-587">
+                <mask id="mask-20" sketch:name="Clip 585" fill="white">
+                    <use xlink:href="#path-19"></use>
+                </mask>
+                <g id="Clip-585"></g>
+            </g>
+            <g id="Group-601">
+                <mask id="mask-22" sketch:name="Clip 596" fill="white">
+                    <use xlink:href="#path-21"></use>
+                </mask>
+                <g id="Clip-596"></g>
+            </g>
+            <g id="Group-666"></g>
+            <g id="Group-669" transform="translate(404.000000, 371.000000)">
+                <mask id="mask-24" sketch:name="Clip 668" fill="white">
+                    <use xlink:href="#path-23"></use>
+                </mask>
+                <g id="Clip-668"></g>
+                <path d="M-5,-5 L37,-5 L37,37 L-5,37 L-5,-5 Z" id="Fill-667" fill="#DBEEF8" sketch:type="MSShapeGroup" mask="url(#mask-24)"></path>
+            </g>
+            <path d="M420,372 C411.729,372 405,378.729 405,387 C405,395.271 411.729,402 420,402 C428.271,402 435,395.271 435,387 C435,378.729 428.271,372 420,372 M420,404 C410.626,404 403,396.374 403,387 C403,377.626 410.626,370 420,370 C429.374,370 437,377.626 437,387 C437,396.374 429.374,404 420,404" id="Fill-670" fill="#D4D4E2" sketch:type="MSShapeGroup"></path>
+            <g id="Group-674" transform="translate(381.000000, 404.000000)">
+                <mask id="mask-26" sketch:name="Clip 673" fill="white">
+                    <use xlink:href="#path-25"></use>
+                </mask>
+                <g id="Clip-673"></g>
+                <path d="M5.2218,30.092 L-6.0922,18.778 L20.7778,-8.092 L32.0918,3.222 L5.2218,30.092 Z" id="Fill-672" fill="#FD5A5A" sketch:type="MSShapeGroup" mask="url(#mask-26)"></path>
+            </g>
+            <path d="M383.3931,422.7783 L386.2221,425.6073 L403.1951,408.6333 C403.5701,408.2583 403.7761,407.7573 403.7761,407.2233 C403.7771,406.6873 403.5691,406.1843 403.1921,405.8073 C402.4381,405.0533 401.1191,405.0513 400.3661,405.8053 L383.3931,422.7783 Z M386.2221,428.0213 C385.9561,428.0213 385.7021,427.9153 385.5151,427.7283 L381.2721,423.4853 C381.0841,423.2983 380.9791,423.0433 380.9791,422.7783 C380.9791,422.5133 381.0841,422.2583 381.2721,422.0713 L398.9521,404.3913 C399.7061,403.6373 400.7091,403.2223 401.7771,403.2223 C402.8461,403.2223 403.8511,403.6383 404.6061,404.3933 C405.3611,405.1483 405.7771,406.1533 405.7761,407.2233 C405.7761,408.2923 405.3611,409.2953 404.6091,410.0483 L386.9291,427.7283 C386.7411,427.9153 386.4871,428.0213 386.2221,428.0213 L386.2221,428.0213 Z" id="Fill-675" fill="#FD5A5A" sketch:type="MSShapeGroup"></path>
+            <g id="Group-679" transform="translate(410.000000, 379.000000)">
+                <mask id="mask-28" sketch:name="Clip 678" fill="white">
+                    <use xlink:href="#path-27"></use>
+                </mask>
+                <g id="Clip-678"></g>
+                <path d="M-5,-5 L10,-5 L10,10 L-5,10 L-5,-5 Z" id="Fill-677" fill="#7BE5E4" sketch:type="MSShapeGroup" mask="url(#mask-28)"></path>
+            </g>
+            <path d="M411,383 L414,383 L414,380 L411,380 L411,383 Z M415,385 L410,385 C409.448,385 409,384.552 409,384 L409,379 C409,378.448 409.448,378 410,378 L415,378 C415.552,378 416,378.448 416,379 L416,384 C416,384.552 415.552,385 415,385 L415,385 Z" id="Fill-680" fill="#7BE5E4" sketch:type="MSShapeGroup"></path>
+            <g id="Group-684" transform="translate(423.000000, 381.000000)">
+                <mask id="mask-30" sketch:name="Clip 683" fill="white">
+                    <use xlink:href="#path-29"></use>
+                </mask>
+                <g id="Clip-683"></g>
+                <path d="M-5,-5 L13,-5 L13,13 L-5,13 L-5,-5 Z" id="Fill-682" fill="#7BE5E4" sketch:type="MSShapeGroup" mask="url(#mask-30)"></path>
+            </g>
+            <path d="M424,388 L430,388 L430,382 L424,382 L424,388 Z M431,390 L423,390 C422.448,390 422,389.552 422,389 L422,381 C422,380.448 422.448,380 423,380 L431,380 C431.552,380 432,380.448 432,381 L432,389 C432,389.552 431.552,390 431,390 L431,390 Z" id="Fill-685" fill="#7BE5E4" sketch:type="MSShapeGroup"></path>
+            <g id="Group-689" transform="translate(412.000000, 391.000000)">
+                <mask id="mask-32" sketch:name="Clip 688" fill="white">
+                    <use xlink:href="#path-31"></use>
+                </mask>
+                <g id="Clip-688"></g>
+                <path d="M-5,-5 L11,-5 L11,11 L-5,11 L-5,-5 Z" id="Fill-687" fill="#7BE5E4" sketch:type="MSShapeGroup" mask="url(#mask-32)"></path>
+            </g>
+            <path d="M413,396 L417,396 L417,392 L413,392 L413,396 Z M418,398 L412,398 C411.448,398 411,397.552 411,397 L411,391 C411,390.448 411.448,390 412,390 L418,390 C418.552,390 419,390.448 419,391 L419,397 C419,397.552 418.552,398 418,398 L418,398 Z" id="Fill-690" fill="#7BE5E4" sketch:type="MSShapeGroup"></path>
+            <g id="Group-694" transform="translate(416.000000, 382.000000)">
+                <mask id="mask-34" sketch:name="Clip 693" fill="white">
+                    <use xlink:href="#path-33"></use>
+                </mask>
+                <g id="Clip-693"></g>
+                <path d="M-5,-5 L11,-5 L11,8 L-5,8 L-5,-5 Z" id="Fill-692" fill="#7BE5E4" sketch:type="MSShapeGroup" mask="url(#mask-34)"></path>
+            </g>
+            <path d="M422.4473,386.3418 L414.6583,382.4468 L415.5523,380.6578 L423.3423,384.5528 L422.4473,386.3418 Z" id="Fill-695" fill="#7BE5E4" sketch:type="MSShapeGroup"></path>
+            <g id="Group-699" transform="translate(412.000000, 384.000000)">
+                <mask id="mask-36" sketch:name="Clip 698" fill="white">
+                    <use xlink:href="#path-35"></use>
+                </mask>
+                <g id="Clip-698"></g>
+                <path d="M-4.5,-4.5 L8,-4.5 L8,11 L-4.5,11 L-4.5,-4.5 Z" id="Fill-697" fill="#7BE5E4" sketch:type="MSShapeGroup" mask="url(#mask-36)"></path>
+            </g>
+            <path d="M415.0005,391 C414.6205,391 414.2575,390.782 414.0895,390.414 L411.5895,384.914 C411.3615,384.411 411.5835,383.818 412.0865,383.59 C412.5845,383.36 413.1815,383.583 413.4105,384.086 L415.9105,389.586 C416.1385,390.089 415.9165,390.682 415.4135,390.91 C415.2795,390.971 415.1395,391 415.0005,391" id="Fill-700" fill="#7BE5E4" sketch:type="MSShapeGroup"></path>
+            <g id="Group-704" transform="translate(418.000000, 389.000000)">
+                <mask id="mask-38" sketch:name="Clip 703" fill="white">
+                    <use xlink:href="#path-37"></use>
+                </mask>
+                <g id="Clip-703"></g>
+                <path d="M-5,-5 L16,-5 L16,11 L-5,11 L-5,-5 Z" id="Fill-702" fill="#7BE5E4" sketch:type="MSShapeGroup" mask="url(#mask-38)"></path>
+            </g>
+            <g id="Group-709" transform="translate(403.000000, 388.000000)" sketch:type="MSShapeGroup">
+                <path d="M15.001,8 C14.647,8 14.304,7.812 14.122,7.479 C13.857,6.994 14.036,6.387 14.521,6.122 L25.521,0.122 C26.008,-0.142 26.613,0.037 26.878,0.521 C27.143,1.006 26.964,1.613 26.479,1.878 L15.479,7.878 C15.327,7.961 15.163,8 15.001,8" id="Fill-705" fill="#7BE5E4"></path>
+                <path d="M1.5,17.5 C1.244,17.5 0.988,17.402 0.793,17.207 C0.402,16.816 0.402,16.184 0.793,15.793 L5.793,10.793 C6.184,10.402 6.816,10.402 7.207,10.793 C7.598,11.184 7.598,11.816 7.207,12.207 L2.207,17.207 C2.012,17.402 1.756,17.5 1.5,17.5" id="Fill-707" fill="#535353"></path>
+            </g>
+            <g id="Group-779"></g>
+            <g id="Group-786"></g>
+            <g id="Group-797"></g>
+            <g id="Group-827">
+                <mask id="mask-40" sketch:name="Clip 822" fill="white">
+                    <use xlink:href="#path-39"></use>
+                </mask>
+                <g id="Clip-822"></g>
+            </g>
+            <g id="Group-853"></g>
+            <g id="Group-891"></g>
+            <g id="Group-935">
+                <mask id="mask-42" sketch:name="Clip 932" fill="white">
+                    <use xlink:href="#path-41"></use>
+                </mask>
+                <g id="Clip-932"></g>
+            </g>
+            <g id="Group-948"></g>
+            <g id="Group-963">
+                <mask id="mask-44" sketch:name="Clip 960" fill="white">
+                    <use xlink:href="#path-43"></use>
+                </mask>
+                <g id="Clip-960"></g>
+            </g>
+            <g id="Group-978">
+                <mask id="mask-46" sketch:name="Clip 975" fill="white">
+                    <use xlink:href="#path-45"></use>
+                </mask>
+                <g id="Clip-975"></g>
+            </g>
+            <g id="Group-1005"></g>
+            <g id="Group-1024">
+                <mask id="mask-48" sketch:name="Clip 1017" fill="white">
+                    <use xlink:href="#path-47"></use>
+                </mask>
+                <g id="Clip-1017"></g>
+            </g>
+            <g id="Group-1042">
+                <mask id="mask-50" sketch:name="Clip 1041" fill="white">
+                    <use xlink:href="#path-49"></use>
+                </mask>
+                <g id="Clip-1041"></g>
+            </g>
+            <g id="Group-1083">
+                <mask id="mask-52" sketch:name="Clip 1081" fill="white">
+                    <use xlink:href="#path-51"></use>
+                </mask>
+                <g id="Clip-1081"></g>
+            </g>
+            <g id="Group-1125"></g>
+            <g id="Group-1216"></g>
+            <g id="Group-1228"></g>
+            <g id="Group-1281">
+                <mask id="mask-54" sketch:name="Clip 1279" fill="white">
+                    <use xlink:href="#path-53"></use>
+                </mask>
+                <g id="Clip-1279"></g>
+            </g>
+            <g id="Group-1297">
+                <mask id="mask-56" sketch:name="Clip 1288" fill="white">
+                    <use xlink:href="#path-55"></use>
+                </mask>
+                <g id="Clip-1288"></g>
+            </g>
+            <g id="Group-1339"></g>
+            <g id="Group-1414"></g>
+            <g id="Group-1431"></g>
+            <g id="Group-1451"></g>
+            <g id="Group-1466"></g>
+            <g id="Group-1480"></g>
+            <g id="Group-1497"></g>
+            <g id="Group-1521"></g>
+            <g id="Group-1548"></g>
+            <g id="Group-1652"></g>
+            <g id="Group-1660">
+                <mask id="mask-58" sketch:name="Clip 1659" fill="white">
+                    <use xlink:href="#path-57"></use>
+                </mask>
+                <g id="Clip-1659"></g>
+            </g>
+            <g id="Group-1684"></g>
+            <g id="Group-1772"></g>
+            <g id="Group-1809">
+                <mask id="mask-60" sketch:name="Clip 1808" fill="white">
+                    <use xlink:href="#path-59"></use>
+                </mask>
+                <g id="Clip-1808"></g>
+            </g>
+            <g id="Group-1828">
+                <mask id="mask-62" sketch:name="Clip 1825" fill="white">
+                    <use xlink:href="#path-61"></use>
+                </mask>
+                <g id="Clip-1825"></g>
+            </g>
+            <g id="Group-1843"></g>
+            <g id="Group-1857">
+                <mask id="mask-64" sketch:name="Clip 1855" fill="white">
+                    <use xlink:href="#path-63"></use>
+                </mask>
+                <g id="Clip-1855"></g>
+            </g>
+            <g id="Group-1903">
+                <mask id="mask-66" sketch:name="Clip 1902" fill="white">
+                    <use xlink:href="#path-65"></use>
+                </mask>
+                <g id="Clip-1902"></g>
+            </g>
+            <g id="Group-1938">
+                <mask id="mask-68" sketch:name="Clip 1935" fill="white">
+                    <use xlink:href="#path-67"></use>
+                </mask>
+                <g id="Clip-1935"></g>
+            </g>
+            <g id="Group-2047"></g>
+            <g id="Group-2058">
+                <mask id="mask-70" sketch:name="Clip 2054" fill="white">
+                    <use xlink:href="#path-69"></use>
+                </mask>
+                <g id="Clip-2054"></g>
+            </g>
+            <g id="Group-2078"></g>
+            <g id="Group-2104"></g>
+            <g id="Group-2113">
+                <mask id="mask-72" sketch:name="Clip 2111" fill="white">
+                    <use xlink:href="#path-71"></use>
+                </mask>
+                <g id="Clip-2111"></g>
+            </g>
+            <g id="Group-2239"></g>
+            <g id="Group-2249">
+                <mask id="mask-74" sketch:name="Clip 2246" fill="white">
+                    <use xlink:href="#path-73"></use>
+                </mask>
+                <g id="Clip-2246"></g>
+            </g>
+            <g id="Group-2259">
+                <mask id="mask-76" sketch:name="Clip 2256" fill="white">
+                    <use xlink:href="#path-75"></use>
+                </mask>
+                <g id="Clip-2256"></g>
+            </g>
+            <g id="Group-2448"></g>
+            <g id="Group-2477">
+                <mask id="mask-78" sketch:name="Clip 2476" fill="white">
+                    <use xlink:href="#path-77"></use>
+                </mask>
+                <g id="Clip-2476"></g>
+            </g>
+            <g id="Group-2497">
+                <mask id="mask-80" sketch:name="Clip 2495" fill="white">
+                    <use xlink:href="#path-79"></use>
+                </mask>
+                <g id="Clip-2495"></g>
+            </g>
+            <g id="Group-2536"></g>
+            <g id="Group-2563">
+                <mask id="mask-82" sketch:name="Clip 2562" fill="white">
+                    <use xlink:href="#path-81"></use>
+                </mask>
+                <g id="Clip-2562"></g>
+            </g>
+            <g id="Group-2583">
+                <mask id="mask-84" sketch:name="Clip 2582" fill="white">
+                    <use xlink:href="#path-83"></use>
+                </mask>
+                <g id="Clip-2582"></g>
+            </g>
+            <g id="Group-2679"></g>
+            <g id="Group-2698">
+                <mask id="mask-86" sketch:name="Clip 2695" fill="white">
+                    <use xlink:href="#path-85"></use>
+                </mask>
+                <g id="Clip-2695"></g>
+            </g>
+            <g id="Group-2771">
+                <mask id="mask-88" sketch:name="Clip 2765" fill="white">
+                    <use xlink:href="#path-87"></use>
+                </mask>
+                <g id="Clip-2765"></g>
+            </g>
+            <g id="Group-2811"></g>
+            <g id="Group-2833">
+                <mask id="mask-90" sketch:name="Clip 2832" fill="white">
+                    <use xlink:href="#path-89"></use>
+                </mask>
+                <g id="Clip-2832"></g>
+            </g>
+            <g id="Group-2841">
+                <mask id="mask-92" sketch:name="Clip 2840" fill="white">
+                    <use xlink:href="#path-91"></use>
+                </mask>
+                <g id="Clip-2840"></g>
+            </g>
+            <g id="Group-2890"></g>
+            <g id="Group-2917"></g>
+            <g id="Group-2953"></g>
+            <g id="Group-3003"></g>
+            <g id="Group-3025"></g>
+            <g id="Group-3087">
+                <mask id="mask-94" sketch:name="Clip 3085" fill="white">
+                    <use xlink:href="#path-93"></use>
+                </mask>
+                <g id="Clip-3085"></g>
+            </g>
+            <g id="Group-3115"></g>
+            <g id="Group-3131">
+                <mask id="mask-96" sketch:name="Clip 3128" fill="white">
+                    <use xlink:href="#path-95"></use>
+                </mask>
+                <g id="Clip-3128"></g>
+            </g>
+            <g id="Group-3146">
+                <mask id="mask-98" sketch:name="Clip 3144" fill="white">
+                    <use xlink:href="#path-97"></use>
+                </mask>
+                <g id="Clip-3144"></g>
+            </g>
+            <g id="Group-3160">
+                <mask id="mask-100" sketch:name="Clip 3155" fill="white">
+                    <use xlink:href="#path-99"></use>
+                </mask>
+                <g id="Clip-3155"></g>
+            </g>
+            <g id="Group-3170">
+                <mask id="mask-102" sketch:name="Clip 3167" fill="white">
+                    <use xlink:href="#path-101"></use>
+                </mask>
+                <g id="Clip-3167"></g>
+            </g>
+            <g id="Group-3222">
+                <mask id="mask-104" sketch:name="Clip 3219" fill="white">
+                    <use xlink:href="#path-103"></use>
+                </mask>
+                <g id="Clip-3219"></g>
+            </g>
+            <g id="Group-3263">
+                <mask id="mask-106" sketch:name="Clip 3260" fill="white">
+                    <use xlink:href="#path-105"></use>
+                </mask>
+                <g id="Clip-3260"></g>
+            </g>
+            <g id="Group-3289">
+                <mask id="mask-108" sketch:name="Clip 3283" fill="white">
+                    <use xlink:href="#path-107"></use>
+                </mask>
+                <g id="Clip-3283"></g>
+            </g>
+            <g id="Group-3330"></g>
+            <g id="Group-3414">
+                <mask id="mask-110" sketch:name="Clip 3412" fill="white">
+                    <use xlink:href="#path-109"></use>
+                </mask>
+                <g id="Clip-3412"></g>
+            </g>
+            <g id="Group-3473"></g>
+            <g id="Group-3489"></g>
+            <g id="Group-3532"></g>
+            <g id="Group-3556">
+                <mask id="mask-112" sketch:name="Clip 3544" fill="white">
+                    <use xlink:href="#path-111"></use>
+                </mask>
+                <g id="Clip-3544"></g>
+            </g>
+            <g id="Group-3574">
+                <mask id="mask-114" sketch:name="Clip 3573" fill="white">
+                    <use xlink:href="#path-113"></use>
+                </mask>
+                <g id="Clip-3573"></g>
+            </g>
+            <g id="Group-3693">
+                <mask id="mask-116" sketch:name="Clip 3692" fill="white">
+                    <use xlink:href="#path-115"></use>
+                </mask>
+                <g id="Clip-3692"></g>
+            </g>
+            <g id="Group-3728">
+                <mask id="mask-118" sketch:name="Clip 3725" fill="white">
+                    <use xlink:href="#path-117"></use>
+                </mask>
+                <g id="Clip-3725"></g>
+            </g>
+            <g id="Group-3759">
+                <mask id="mask-120" sketch:name="Clip 3747" fill="white">
+                    <use xlink:href="#path-119"></use>
+                </mask>
+                <g id="Clip-3747"></g>
+            </g>
+            <g id="Group-3782">
+                <mask id="mask-122" sketch:name="Clip 3775" fill="white">
+                    <use xlink:href="#path-121"></use>
+                </mask>
+                <g id="Clip-3775"></g>
+            </g>
+            <g id="Group-3800"></g>
+            <g id="Group-3811"></g>
+            <g id="Group-3824">
+                <mask id="mask-124" sketch:name="Clip 3821" fill="white">
+                    <use xlink:href="#path-123"></use>
+                </mask>
+                <g id="Clip-3821"></g>
+            </g>
+            <g id="Group-3841">
+                <mask id="mask-126" sketch:name="Clip 3838" fill="white">
+                    <use xlink:href="#path-125"></use>
+                </mask>
+                <g id="Clip-3838"></g>
+            </g>
+            <g id="Group-3854">
+                <mask id="mask-128" sketch:name="Clip 3848" fill="white">
+                    <use xlink:href="#path-127"></use>
+                </mask>
+                <g id="Clip-3848"></g>
+            </g>
+        </g>
+    </g>
+</svg>

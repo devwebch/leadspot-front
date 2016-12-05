@@ -14,6 +14,7 @@
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localize']], function()
 {
     Route::get('/', function () { return View::make('home'); });
+    Route::get(LaravelLocalization::transRoute('routes.features'), function () { return view('features'); });
     Route::get(LaravelLocalization::transRoute('routes.pricing'), function () { return view('pricing'); });
     Route::get(LaravelLocalization::transRoute('routes.contact'), function () { return view('contact'); });
     Route::post('/contact/send', 'Controller@contactSend');
