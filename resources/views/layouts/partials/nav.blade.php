@@ -46,7 +46,7 @@
                     <a href="{{ LaravelLocalization::getLocalizedURL(null, 'contact') }}" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>" title="{{trans('nav.contact')}}">{{trans('nav.contact')}}</a>
                 </li>
                 <li>
-                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="/" data-text="{{trans('nav.dashboard')}}" title="{{trans('nav.dashboard')}}">{{trans('nav.dashboard')}}</a>
+                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com/" data-text="{{trans('nav.dashboard')}}" title="{{trans('nav.dashboard')}}">{{trans('nav.dashboard')}}</a>
                 </li>
                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                     @if( LaravelLocalization::getCurrentLocale() != $localeCode )
@@ -55,7 +55,7 @@
                     @endif
                 @endforeach
                 <li>
-                    <a class="btn btn-bordered fs-12 btn-black all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20 m-t-10" href="/" title="{{trans('nav.dashboard')}}">{{trans('nav.dashboard')}}</a>
+                    <a class="btn btn-bordered fs-12 btn-black all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20 m-t-10" href="https://go.leadspotapp.com/" title="{{trans('nav.dashboard')}}">{{trans('nav.dashboard')}}</a>
                 </li>
             </ul>
         </div>
