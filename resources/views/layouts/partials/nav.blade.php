@@ -46,8 +46,16 @@
                     <a href="{{ LaravelLocalization::getLocalizedURL(null, 'contact') }}" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>" title="{{trans('nav.contact')}}">{{trans('nav.contact')}}</a>
                 </li>
                 <li>
-                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com" data-text="{{trans('nav.contact')}}" title="{{trans('nav.contact')}}">{{trans('nav.dashboard')}}</a>
-                    <a class="btn btn-bordered fs-12 btn-black font-montserrat fs-12 all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20 m-t-10" href="https://go.leadspotapp.com" title="{{trans('nav.contact')}}">{{trans('nav.dashboard')}}</a>
+                    <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="/" data-text="{{trans('nav.dashboard')}}" title="{{trans('nav.dashboard')}}">{{trans('nav.dashboard')}}</a>
+                </li>
+                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                    @if( LaravelLocalization::getCurrentLocale() != $localeCode )
+                    <li><a href="{{LaravelLocalization::getLocalizedURL($localeCode) }}" hreflang="{{$localeCode}}" title="{{$properties['native']}}" class="no-padding text-uppercase hidden-sm hidden-xs">{{$localeCode}}</a></li>
+                    <li><a href="{{LaravelLocalization::getLocalizedURL($localeCode) }}" hreflang="{{$localeCode}}" title="{{$properties['native']}}" class="text-uppercase hidden-lg hidden-md">{{$properties['native']}}</a></li>
+                    @endif
+                @endforeach
+                <li>
+                    <a class="btn btn-bordered fs-12 btn-black all-caps pull-bottom visible-sm visible-xs buy-now sm-static sm-m-l-20 sm-m-r-20 m-t-10" href="/" title="{{trans('nav.dashboard')}}">{{trans('nav.dashboard')}}</a>
                 </li>
             </ul>
         </div>

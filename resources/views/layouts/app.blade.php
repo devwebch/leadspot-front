@@ -20,7 +20,6 @@
     <!-- IOS -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#b94a67">
 
-    <link rel="canonical" href="{{url()->full()}}/" />
 
     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
     <link rel="alternate" hreflang="{{$localeCode}}" href="{{LaravelLocalization::getLocalizedURL($localeCode) }}" />
@@ -93,8 +92,13 @@
                 <img alt="LeadSpot" title="LeadSpot" class="logo inline m-r-50" src="{{asset('images/logo-leadspot.png')}}" width="100">
                 <div class="m-t-10 ">
                     <ul class="no-style fs-11 no-padding font-arial">
-                        <li class="inline no-padding"><a class="hint-text text-master p-r-10 b-r b-grey" href="mailto:support@leadspotapp.com">{{trans('footer.nav.support')}}</a></li>
-                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 xs-no-padding xs-m-t-10" href="{{ LaravelLocalization::getLocalizedURL(null, 'terms-and-conditions') }}" title="{{trans('footer.nav.terms')}}">{{trans('footer.nav.terms')}}</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-r-10" href="mailto:support@leadspotapp.com" title="{{trans('footer.nav.support')}}">{{trans('footer.nav.support')}}</a></li>
+                        <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 b-l b-grey" href="{{ LaravelLocalization::getLocalizedURL(null, 'terms-and-conditions') }}" title="{{trans('footer.nav.terms')}}">{{trans('footer.nav.terms')}}</a></li>
+                        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                            @if( LaravelLocalization::getCurrentLocale() != $localeCode )
+                                <li class="inline no-padding"><a class="hint-text text-master p-l-10 p-r-10 b-l b-grey" href="{{LaravelLocalization::getLocalizedURL($localeCode) }}" hreflang="{{$localeCode}}" title="{{$properties['native']}}">{{$properties['native']}}</a></li>
+                            @endif
+                        @endforeach
                     </ul>
                 </div>
             </div>
