@@ -35,5 +35,11 @@ return [
         'register_now'              => 'Register now',
     ],
     'features_title'            => 'Key features',
+    'optin_form'                => [
+        'title'         => 'Get started with<br> <strong>60 free searches</strong>',
+        'desc'          => 'Start reaching out to clients for free today, <br><strong>no credit card required</strong>.',
+        'label'         => 'Email address',
+        'submit_label'  => 'Start now!'
+    ]
 
 ];
