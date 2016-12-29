@@ -3,7 +3,7 @@ return [
     'metas'     => [
         'description'           => 'LeadSpot is a prospects finder and leads generation service, analyze and get relevant insights about local businesses.',
     ],
-    'jumbotron_title'           => 'Find quality leads',
+    'jumbotron_title'           => 'Lead generator for <strong>web agencies</strong>',
     'jumbotron_sub'             => 'Discover <strong>local companies</strong>, analyze <strong>their needs</strong> and contact <strong>the right people</strong>',
     'discover_leadspot'         => 'Discover LeadSpot',
     'register_now'              => 'Register now for free',

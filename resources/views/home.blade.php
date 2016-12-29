@@ -111,7 +111,7 @@
                                     <form class="m-t-25" method="get" action="https://go.leadspotapp.com/register" onsubmit="ga('send', 'event', 'Registration', 'click', 'Optin Jumbotron')">
                                         <div class="form-group form-group-default input-group no-border input-group-attached col-md-10 col-sm-12 col-xs-12">
                                             <label>{!! trans('home.optin_form.label') !!}</label>
-                                            <input type="email" class="form-control" placeholder="john@gmail.com">
+                                            <input type="email" name="email" class="form-control" placeholder="john@gmail.com">
                                             <span class="input-group-btn">
                                                 <button class="btn btn-black btn-cons" type="button">{!! trans('home.optin_form.submit_label') !!}</button>
                                             </span>
