@@ -1,7 +1,7 @@
 <?php
 return [
     'metas'     => [
-        'description'           => 'LeadSpot est une application de génération de prospects, analysez et recevez des informations pertinentes à propos d\'entreprises locales.',
+        'description'           => 'LeadSpot est une application de génération de prospects pour agences web, analysez et recevez des informations pertinentes à propos d\'entreprises locales.',
     ],
     'jumbotron_title'           => 'Générateur de leads<br>pour <strong>agences web</strong>',
     'jumbotron_sub'             => 'Découvrez des <strong>sociétés locales</strong>, analysez <strong>leurs besoins</strong> et contactez <strong>les bonnes personnes</strong>',
