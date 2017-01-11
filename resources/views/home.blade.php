@@ -91,7 +91,7 @@
                 <div class="col-xs-height col-middle text-left">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-6">
                                 <h2 class="light text-white sm-text-center"
                                     style="font-size: 2.5rem; line-height: 1.5em;">{!! trans('home.jumbotron_title') !!}</h2>
                                 <h3 class="light text-white sm-text-center">{!! trans('home.jumbotron_sub') !!}</h3>
@@ -104,7 +104,7 @@
                                        onclick="ga('send', 'event', 'Registration', 'click', 'CTA Jumbotron')">{{trans('home.register_now')}}</a>
                                 </div>
                             </div>
-                            <div class="col-md-5 hidden-xs hidden-sm">
+                            <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
                                 <div class="optin-form p-l-20 p-t-10 p-b-10" style="border-left: 1px solid rgba(255,255,255,0.5);">
                                     <h3 class="text-white">{!! trans('home.optin_form.title') !!}</h3>
                                     <p class="text-white">{!! trans('home.optin_form.desc') !!}</p>
@@ -127,7 +127,7 @@
     </section>
     <!-- END JUMBOTRON -->
     <!-- BEGIN SECTION -->
-    <section id="launch" class="p-b-60 p-t-60 no-overflow relative" style="min-height:630px">
+    <section id="launch" class="hidden-xs p-b-60 p-t-60 no-overflow relative" style="min-height:630px">
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
@@ -151,7 +151,7 @@
     </section>
     <!-- END SECTION -->
     <!-- BEGIN INTRO CONTENT -->
-    <section id="stats" class="p-b-70 p-t-50 sm-p-b-0">
+    <section id="stats" class="p-b-70 p-t-100 sm-p-b-0 sm-p-t-30">
         <div class="container">
             <div class="col-md-8 col-md-offset-2 ">
                 <div class="text-center">
@@ -161,7 +161,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="features" class="p-b-70 p-t-50 sm-p-b-0">
         <div class="container">
             <div class="col-md-12 m-b-20 text-center">
                 <h2 class="light m-t-5 m-b-20">{{trans('home.features_title')}}</h2>
