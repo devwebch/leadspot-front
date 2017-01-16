@@ -40,5 +40,11 @@ return [
         'desc'          => "Commencez à contacter vos clients aujourd'hui gratuitement, <br><strong>aucune carte de crédit requise</strong>.",
         'label'         => 'Adresse e-mail',
         'submit_label'  => 'Démarrer !'
+    ],
+    'leads_counter'     => [
+        'enable_geoloc'     => "Merci d'activer la geolocalisation pour découvrir des leads dans votre région.",
+        'fetching_data'     => "Récupération données...",
+        'catchphrase'       => "Au moins <strong>:number entreprises</strong> dans votre région peuvent avoir besoin d'un site!",
+        'button'            => "Commencer à vendre"
     ]
 ];

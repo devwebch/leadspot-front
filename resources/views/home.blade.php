@@ -10,6 +10,7 @@
 
 @section('scripts')
     <script type="text/javascript" src="{{asset('js/jquery.slick-modal.min.js')}}" async defer></script>
+    <script type="text/javascript" src="{{asset('js/jquery.animateNumbers.js')}}"></script>
     <script type="text/javascript" async defer>
         jQuery(document).ready(function ($) {
             // Modal 1
@@ -126,6 +127,20 @@
         </div>
     </section>
     <!-- END JUMBOTRON -->
+    <section class="leads-counter p-b-15 p-t-15 bg-success-light text-center text-white">
+        <div class="text-center error" style="display: none">
+            <i class="fa fa-danger m-r-5" style="font-size: 20px;"></i>
+            <h4 class="inline text-white">{{trans('home.leads_counter.enable_geoloc')}}</h4>
+        </div>
+        <div class="text-center loading">
+            <i class="fa fa-refresh fa-spin m-r-5" style="font-size: 20px;"></i>
+            <h4 class="inline text-white">{{trans('home.leads_counter.fetching_data')}}</h4>
+        </div>
+        <div class="result" style="display: none">
+            <h3 class="inline text-white">{!! trans('home.leads_counter.catchphrase', ['number' => rand(12, 18)]) !!}</h3>
+            <a href="https://go.leadspotapp.com/register" class="btn btn-cons btn-bordered m-l-20 xs-m-b-15 m-b-10 btn-white" type="button">{{trans('home.leads_counter.button')}}</a>
+        </div>
+    </section>
     <!-- BEGIN SECTION -->
     <section id="launch" class="hidden-xs p-b-60 p-t-60 no-overflow relative" style="min-height:630px">
         <div class="container text-center">

@@ -40,6 +40,12 @@ return [
         'desc'          => 'Start reaching out to clients for free today, <br><strong>no credit card required</strong>.',
         'label'         => 'Email address',
         'submit_label'  => 'Start now!'
+    ],
+    'leads_counter'     => [
+        'enable_geoloc'     => "Please enable geolocation to discover leads in your area.",
+        'fetching_data'     => "Fetching data...",
+        'catchphrase'       => "At least <strong>:number businesses</strong> in your area might need a new website!",
+        'button'            => "Start selling"
     ]
 
 ];

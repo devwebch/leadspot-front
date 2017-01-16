@@ -18,3 +18,26 @@ require('./bootstrap');
 const app = new Vue({
     el: 'body'
 });*/
+
+jQuery(document).ready(function ($) {
+    getGeoLocation();
+});
+
+function getGeoLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            // geoloc enabled
+            $('.leads-counter .loading').delay(3000).fadeOut(100);
+            $('.leads-counter .result').delay(3100).fadeIn(500);
+
+        }, function() {
+            // geoloc enabled but error
+            $('.leads-counter .loading').delay(1000).fadeOut(500);
+            $('.leads-counter .error').delay(1500).fadeIn(500);
+        });
+    } else {
+        // Browser doesn't support Geolocation
+        $('.leads-counter .loading').delay(1000).fadeOut(500);
+        $('.leads-counter .error').delay(1500).fadeIn(500);
+    }
+}
