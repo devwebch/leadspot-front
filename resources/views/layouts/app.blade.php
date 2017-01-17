@@ -57,7 +57,8 @@
       "url": "https://leadspotapp.com",
       "sameAs": [
         "https://plus.google.com/+leadspotapp",
-        "https://twitter.com/leadspotapp"
+        "https://twitter.com/leadspotapp",
+        "https://www.facebook.com/leadspotapp"
       ]
     }
     </script>
