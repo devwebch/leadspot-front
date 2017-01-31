@@ -4,5 +4,6 @@ return [
     'features'      => 'Features',
     'pricing'       => 'Pricing',
     'contact'       => 'Contact',
+    'blog'          => 'Blog',
     'dashboard'     => 'Dashboard',
 ];

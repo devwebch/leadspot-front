@@ -46,6 +46,9 @@
                     <a href="{{ LaravelLocalization::getLocalizedURL(null, 'contact') }}" data-text="Contact" class="<?php echo (Route::current()->uri() == 'contact') ? 'active' : ''; ?>" title="{{trans('nav.contact')}}">{{trans('nav.contact')}}</a>
                 </li>
                 <li>
+                    <a href="https://blog.leadspotapp.com" target="_blank" data-text="Blog" class="<?php echo (Route::current()->uri() == 'blog') ? 'active' : ''; ?>" title="{{trans('nav.blog')}}">{{trans('nav.blog')}}</a>
+                </li>
+                <li>
                     <a class="btn btn-bordered fs-12 btn-white hidden-sm hidden-xs" href="https://go.leadspotapp.com/" data-text="{{trans('nav.dashboard')}}" title="{{trans('nav.dashboard')}}">{{trans('nav.dashboard')}}</a>
                 </li>
                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
