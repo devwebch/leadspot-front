@@ -115,7 +115,7 @@
                                 <li class="text-black fs-16 normal m-b-25">{!! trans('pricing.quotas.company_searches', ['num' => "5'000"])!!}</li>
                                 <li class="text-black fs-16 normal m-b-25">{!! trans('pricing.quotas.email_lookups', ['num' => "2'000"])!!}</li>
                                 <li class="text-black fs-16 normal m-b-25">{!! trans('pricing.quotas.cms_detector') !!}</li>
-                                <li class="text-black fs-16 normal m-b-25">{!! trans('pricing.quotas.pdf_reports') !!}</li>
+                                <li class="text-black fs-16 normal m-b-25">{!! trans('pricing.quotas.pdf_reports') !!}<br><br></li>
                             </ul>
                             <div class="text-center">
                                 <a href="https://go.leadspotapp.com/register" class="btn btn-info btn-block btn-lg all-caps btn-buy">{{trans('pricing.general.subscribe')}}</a>

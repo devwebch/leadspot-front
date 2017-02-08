@@ -6,7 +6,7 @@ return [
     'general'   => [
         'pricing'       => 'Pricing',
         'plans_fitted'  => 'Plans fitted to your needs',
-        'recommended'   => 'Recommended',
+        'recommended'   => 'Most popular',
         'subscribe'     => 'Subscribe',
         'unlimited'     => 'Unlimited',
         'user'          => 'user',
