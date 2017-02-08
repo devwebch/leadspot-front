@@ -79,9 +79,16 @@
 
 </script>
 @endif
+
+<?php $uri = Route::current()->uri(); ?>
+@if( $uri == '/' || $uri == 'en' || $uri == 'fr')
+<div class="p-b-10 p-t-10 bg-danger-dark text-center text-white" style="margin-top: 88px;">
+    <a href="https://go.leadspotapp.com/register" class="text-white" onclick="ga('send', 'event', 'Registration', 'click', 'Offer TRYOUT')">{!! trans('app.promo.tryout') !!}</a>
+</div>
+@endif
 <!-- BEGIN HEADER -->
 @section('header')
-    @include('layouts.partials.header-transparent')
+    @include('layouts.partials.header-solid')
 @show
 <!-- END HEADER -->
 @yield('content')
