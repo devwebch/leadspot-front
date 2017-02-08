@@ -113,7 +113,7 @@
                                             <label>{!! trans('home.optin_form.label') !!}</label>
                                             <input type="email" name="email" class="form-control" placeholder="john@gmail.com">
                                             <span class="input-group-btn">
-                                                <button class="btn btn-black btn-cons" type="button">{!! trans('home.optin_form.submit_label') !!}</button>
+                                                <button class="btn btn-black btn-cons" type="submit">{!! trans('home.optin_form.submit_label') !!}</button>
                                             </span>
                                         </div>
                                     </form>
