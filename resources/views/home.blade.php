@@ -89,7 +89,7 @@
              data-overlay-opacity="0.6">
             <div class="container-xs-height full-height inner">
                 <div class="col-xs-height col-middle text-left">
-                    <div class="container">
+                    <div class="container" style="margin-top: -90px;">
                         <div class="row">
                             <div class="col-md-6">
                                 <h2 class="light text-white sm-text-center"

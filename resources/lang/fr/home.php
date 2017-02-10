@@ -36,7 +36,7 @@ return [
     ],
     'features_title'            => 'Fonctionnalités clés',
     'optin_form'                => [
-        'title'         => 'Démarrez avec<br><strong>60 recherches gratuites</strong>',
+        'title'         => 'Démarrez avec<br><strong>30 recherches gratuites</strong>',
         'desc'          => "Commencez à contacter vos clients aujourd'hui gratuitement, <br><strong>aucune carte de crédit requise</strong>.",
         'label'         => 'Adresse e-mail',
         'submit_label'  => 'Démarrer !'
